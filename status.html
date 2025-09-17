@@ -242,7 +242,7 @@
  async function loadShabbatTimes() {
   try {
     // טעינת נתונים מקבצים מאוחדים
-    allEventsData = await fetch('times/display_data.json').then(r => r.json());
+    allEventsData = await fetch('times/merged_all_cities.json').then(r => r.json());
     
     if (!allEventsData || allEventsData.length === 0) {
       console.error("No data loaded from external files.");
@@ -254,19 +254,19 @@
     const todayString = today.toISOString().split("T")[0];
 
     // מציאת האירוע הקרוב (שבת או חג)
-    const upcomingEvents = allEventsData.filter((entry) => entry.date >= todayString);
+    const upcomingEvents = allEventsData.filter((entry) => entry.entryDate >= todayString);
     if (upcomingEvents.length === 0) {
       console.error("No upcoming events found.");
       return;
     }
 
-    // קבוצת אירועים לפי תאריך - הנתונים כבר מאוחדים
+    // קבוצת אירועים לפי תאריך כניסה - הנתונים כבר מאוחדים
     eventsByDate = {};
     upcomingEvents.forEach(entry => {
-      if (!eventsByDate[entry.date]) {
-        eventsByDate[entry.date] = [];
+      if (!eventsByDate[entry.entryDate]) {
+        eventsByDate[entry.entryDate] = [];
       }
-      eventsByDate[entry.date].push(entry);
+      eventsByDate[entry.entryDate].push(entry);
     });
 
     // מציאת התאריך הקרוב ביותר
@@ -334,6 +334,7 @@
     }
 
     cities.forEach((city) => {
+      // מציאת האירוע של העיר הזו בתאריך (הנתונים כבר מאוחדים)
       const cityData = closestEvents.find(event => event.city === city.name);
       
       if (cityData) {
