@@ -1,0 +1,6284 @@
+[
+  {
+    "city": "תל אביב",
+    "date": "2025-09-19",
+    "torahPortion": "לא זמין",
+    "hebrewDate": "כ״ו אלול ה'תשפ\"ה",
+    "candleLighting": "18:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-20",
+    "torahPortion": "נצבים",
+    "hebrewDate": "כ״ז אלול ה'תשפ\"ה",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:13",
+    "rabenuTam": "19:55"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-22",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ו",
+    "candleLighting": "18:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-23",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:08",
+    "rabenuTam": "19:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-23",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ו",
+    "candleLighting": "18:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-24",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:06",
+    "rabenuTam": "19:49"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-26",
+    "torahPortion": "וילך",
+    "hebrewDate": "ה' בתשרי ה'תשפ\"ו",
+    "candleLighting": "18:13",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-09-27",
+    "torahPortion": "וילך",
+    "hebrewDate": "ה' בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:02",
+    "rabenuTam": "19:44"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-01",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ו",
+    "candleLighting": "18:06",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-02",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:56",
+    "rabenuTam": "19:37"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-03",
+    "torahPortion": "האזינו",
+    "hebrewDate": "י\"ב בתשרי ה'תשפ\"ו",
+    "candleLighting": "18:04",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-04",
+    "torahPortion": "האזינו",
+    "hebrewDate": "י\"ב בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:53",
+    "rabenuTam": "19:34"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-06",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ו",
+    "candleLighting": "18:00",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-07",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:49",
+    "rabenuTam": "19:30"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-10",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ט בתשרי ה'תשפ\"ו",
+    "candleLighting": "17:55",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-11",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ט בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:45",
+    "rabenuTam": "19:24"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-13",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ו",
+    "candleLighting": "17:51",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-14",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:41",
+    "rabenuTam": "19:20"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-17",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ו בתשרי ה'תשפ\"ו",
+    "candleLighting": "17:47",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-18",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ו בתשרי ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:36",
+    "rabenuTam": "19:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-24",
+    "torahPortion": "נח",
+    "hebrewDate": "ג' בחשוון ה'תשפ\"ו",
+    "candleLighting": "17:39",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-25",
+    "torahPortion": "נח",
+    "hebrewDate": "ג' בחשוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:29",
+    "rabenuTam": "19:06"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-10-31",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י' בחשוון ה'תשפ\"ו",
+    "candleLighting": "16:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-01",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י' בחשוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:22",
+    "rabenuTam": "17:58"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-07",
+    "torahPortion": "וירא",
+    "hebrewDate": "י\"ז בחשוון ה'תשפ\"ו",
+    "candleLighting": "16:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-08",
+    "torahPortion": "וירא",
+    "hebrewDate": "י\"ז בחשוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:17",
+    "rabenuTam": "17:51"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-14",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ד בחשוון ה'תשפ\"ו",
+    "candleLighting": "16:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-15",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ד בחשוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:12",
+    "rabenuTam": "17:46"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-21",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ב' בכסלו ה'תשפ\"ו",
+    "candleLighting": "16:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-22",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ב' בכסלו ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:09",
+    "rabenuTam": "17:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-28",
+    "torahPortion": "ויצא",
+    "hebrewDate": "ט' בכסלו ה'תשפ\"ו",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-11-29",
+    "torahPortion": "ויצא",
+    "hebrewDate": "ט' בכסלו ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-05",
+    "torahPortion": "וישלח",
+    "hebrewDate": "ט\"ז בכסלו ה'תשפ\"ו",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-06",
+    "torahPortion": "וישלח",
+    "hebrewDate": "ט\"ז בכסלו ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-12",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ג בכסלו ה'תשפ\"ו",
+    "candleLighting": "16:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-13",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ג בכסלו ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:09",
+    "rabenuTam": "17:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-19",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ל' בכסלו ה'תשפ\"ו",
+    "candleLighting": "16:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-20",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ל' בכסלו ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:12",
+    "rabenuTam": "17:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-26",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ז' בטבת ה'תשפ\"ו",
+    "candleLighting": "16:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2025-12-27",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ז' בטבת ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:16",
+    "rabenuTam": "17:46"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-02",
+    "torahPortion": "ויחי",
+    "hebrewDate": "י\"ד בטבת ה'תשפ\"ו",
+    "candleLighting": "16:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-03",
+    "torahPortion": "ויחי",
+    "hebrewDate": "י\"ד בטבת ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:20",
+    "rabenuTam": "17:51"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-09",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"א בטבת ה'תשפ\"ו",
+    "candleLighting": "16:34",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-10",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"א בטבת ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:26",
+    "rabenuTam": "17:58"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-16",
+    "torahPortion": "וארא",
+    "hebrewDate": "כ\"ח בטבת ה'תשפ\"ו",
+    "candleLighting": "16:40",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-17",
+    "torahPortion": "וארא",
+    "hebrewDate": "כ\"ח בטבת ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:32",
+    "rabenuTam": "18:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-23",
+    "torahPortion": "בא",
+    "hebrewDate": "ו' בשבט ה'תשפ\"ו",
+    "candleLighting": "16:47",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-24",
+    "torahPortion": "בא",
+    "hebrewDate": "ו' בשבט ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:39",
+    "rabenuTam": "18:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-30",
+    "torahPortion": "בשלח",
+    "hebrewDate": "י\"ג בשבט ה'תשפ\"ו",
+    "candleLighting": "16:53",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-01-31",
+    "torahPortion": "בשלח",
+    "hebrewDate": "י\"ג בשבט ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:45",
+    "rabenuTam": "18:19"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-06",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ' בשבט ה'תשפ\"ו",
+    "candleLighting": "17:00",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-07",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ' בשבט ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:52",
+    "rabenuTam": "18:27"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-13",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ז בשבט ה'תשפ\"ו",
+    "candleLighting": "17:06",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-14",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ז בשבט ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:58",
+    "rabenuTam": "18:34"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-20",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ד' באדר ה'תשפ\"ו",
+    "candleLighting": "17:12",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-21",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ד' באדר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:04",
+    "rabenuTam": "18:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-27",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"א באדר ה'תשפ\"ו",
+    "candleLighting": "17:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-02-28",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"א באדר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:09",
+    "rabenuTam": "18:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-06",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "י\"ח באדר ה'תשפ\"ו",
+    "candleLighting": "17:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-07",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "י\"ח באדר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:14",
+    "rabenuTam": "18:55"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-13",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ה באדר ה'תשפ\"ו",
+    "candleLighting": "17:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-14",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ה באדר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:20",
+    "rabenuTam": "19:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-20",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "ג' בניסן ה'תשפ\"ו",
+    "candleLighting": "17:33",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-21",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "ג' בניסן ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:24",
+    "rabenuTam": "19:08"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-27",
+    "torahPortion": "צו",
+    "hebrewDate": "י' בניסן ה'תשפ\"ו",
+    "candleLighting": "18:38",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-03-28",
+    "torahPortion": "צו",
+    "hebrewDate": "י' בניסן ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:29",
+    "rabenuTam": "20:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-01",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ו",
+    "candleLighting": "18:41",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-02",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:33",
+    "rabenuTam": "20:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-03",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בניסן ה'תשפ\"ו",
+    "candleLighting": "18:42",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-04",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בניסן ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:34",
+    "rabenuTam": "20:20"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-07",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ו",
+    "candleLighting": "18:45",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-08",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:37",
+    "rabenuTam": "20:23"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-10",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ד בניסן ה'תשפ\"ו",
+    "candleLighting": "18:47",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-11",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ד בניסן ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:39",
+    "rabenuTam": "20:26"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-17",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "א' באייר ה'תשפ\"ו",
+    "candleLighting": "18:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-18",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "א' באייר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:44",
+    "rabenuTam": "20:32"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-24",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "ח' באייר ה'תשפ\"ו",
+    "candleLighting": "18:57",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-04-25",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "ח' באייר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:48",
+    "rabenuTam": "20:38"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-01",
+    "torahPortion": "אמור",
+    "hebrewDate": "ט\"ו באייר ה'תשפ\"ו",
+    "candleLighting": "19:02",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-02",
+    "torahPortion": "אמור",
+    "hebrewDate": "ט\"ו באייר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:53",
+    "rabenuTam": "20:44"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-08",
+    "torahPortion": "בהר בחוקותי",
+    "hebrewDate": "כ\"ב באייר ה'תשפ\"ו",
+    "candleLighting": "19:07",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-09",
+    "torahPortion": "בהר בחוקותי",
+    "hebrewDate": "כ\"ב באייר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:58",
+    "rabenuTam": "20:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-15",
+    "torahPortion": "במדבר",
+    "hebrewDate": "כ\"ט באייר ה'תשפ\"ו",
+    "candleLighting": "19:12",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-16",
+    "torahPortion": "במדבר",
+    "hebrewDate": "כ\"ט באייר ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:03",
+    "rabenuTam": "20:56"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-21",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ו",
+    "candleLighting": "19:16",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-22",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:07",
+    "rabenuTam": "21:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-22",
+    "torahPortion": "נשא",
+    "hebrewDate": "ז' בסיוון ה'תשפ\"ו",
+    "candleLighting": "19:16",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-23",
+    "torahPortion": "נשא",
+    "hebrewDate": "ז' בסיוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:08",
+    "rabenuTam": "21:02"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-29",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ד בסיוון ה'תשפ\"ו",
+    "candleLighting": "19:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-05-30",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ד בסיוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:12",
+    "rabenuTam": "21:07"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-05",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"א בסיוון ה'תשפ\"ו",
+    "candleLighting": "19:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-06",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"א בסיוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:16",
+    "rabenuTam": "21:11"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-12",
+    "torahPortion": "קרח",
+    "hebrewDate": "כ\"ח בסיוון ה'תשפ\"ו",
+    "candleLighting": "19:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-13",
+    "torahPortion": "קרח",
+    "hebrewDate": "כ\"ח בסיוון ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:19",
+    "rabenuTam": "21:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-19",
+    "torahPortion": "חקת",
+    "hebrewDate": "ה' בתמוז ה'תשפ\"ו",
+    "candleLighting": "19:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-20",
+    "torahPortion": "חקת",
+    "hebrewDate": "ה' בתמוז ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-26",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ב בתמוז ה'תשפ\"ו",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-06-27",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ב בתמוז ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-03",
+    "torahPortion": "פנחס",
+    "hebrewDate": "י\"ט בתמוז ה'תשפ\"ו",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-04",
+    "torahPortion": "פנחס",
+    "hebrewDate": "י\"ט בתמוז ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-10",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ו בתמוז ה'תשפ\"ו",
+    "candleLighting": "19:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-11",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ו בתמוז ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:16"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-17",
+    "torahPortion": "דברים",
+    "hebrewDate": "ד' באב ה'תשפ\"ו",
+    "candleLighting": "19:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-18",
+    "torahPortion": "דברים",
+    "hebrewDate": "ד' באב ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:18",
+    "rabenuTam": "21:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-24",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"א באב ה'תשפ\"ו",
+    "candleLighting": "19:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-25",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"א באב ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:14",
+    "rabenuTam": "21:08"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-07-31",
+    "torahPortion": "עקב",
+    "hebrewDate": "י\"ח באב ה'תשפ\"ו",
+    "candleLighting": "19:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-01",
+    "torahPortion": "עקב",
+    "hebrewDate": "י\"ח באב ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:09",
+    "rabenuTam": "21:02"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-07",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ה באב ה'תשפ\"ו",
+    "candleLighting": "19:13",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-08",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ה באב ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:03",
+    "rabenuTam": "20:55"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-14",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ב' באלול ה'תשפ\"ו",
+    "candleLighting": "19:07",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-15",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ב' באלול ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:56",
+    "rabenuTam": "20:47"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-21",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "ט' באלול ה'תשפ\"ו",
+    "candleLighting": "18:59",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-22",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "ט' באלול ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:49",
+    "rabenuTam": "20:38"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-28",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "ט\"ז באלול ה'תשפ\"ו",
+    "candleLighting": "18:51",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-08-29",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "ט\"ז באלול ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:40",
+    "rabenuTam": "20:28"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-04",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ג באלול ה'תשפ\"ו",
+    "candleLighting": "18:42",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-05",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ג באלול ה'תשפ\"ו",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:32",
+    "rabenuTam": "20:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-11",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ז",
+    "candleLighting": "18:33",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-12",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:22",
+    "rabenuTam": "20:07"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-12",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ז",
+    "candleLighting": "18:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-13",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:21",
+    "rabenuTam": "20:06"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-18",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ח' בתשרי ה'תשפ\"ז",
+    "candleLighting": "18:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-19",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ח' בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:13",
+    "rabenuTam": "19:57"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-20",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ז",
+    "candleLighting": "18:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-21",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:10",
+    "rabenuTam": "19:54"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-25",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ז",
+    "candleLighting": "18:14",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-09-26",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:04",
+    "rabenuTam": "19:46"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-02",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ז",
+    "candleLighting": "18:05",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-03",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:55",
+    "rabenuTam": "19:36"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-09",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ט בתשרי ה'תשפ\"ז",
+    "candleLighting": "17:56",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-10",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ט בתשרי ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:46",
+    "rabenuTam": "19:26"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-16",
+    "torahPortion": "נח",
+    "hebrewDate": "ו' בחשוון ה'תשפ\"ז",
+    "candleLighting": "17:48",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-17",
+    "torahPortion": "נח",
+    "hebrewDate": "ו' בחשוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:38",
+    "rabenuTam": "19:16"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-23",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"ג בחשוון ה'תשפ\"ז",
+    "candleLighting": "17:40",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-24",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"ג בחשוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:30",
+    "rabenuTam": "19:07"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-30",
+    "torahPortion": "וירא",
+    "hebrewDate": "כ' בחשוון ה'תשפ\"ז",
+    "candleLighting": "16:33",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-10-31",
+    "torahPortion": "וירא",
+    "hebrewDate": "כ' בחשוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:23",
+    "rabenuTam": "17:59"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-06",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ז בחשוון ה'תשפ\"ז",
+    "candleLighting": "16:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-07",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ז בחשוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:18",
+    "rabenuTam": "17:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-13",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ד' בכסלו ה'תשפ\"ז",
+    "candleLighting": "16:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-14",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ד' בכסלו ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:13",
+    "rabenuTam": "17:47"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-20",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י\"א בכסלו ה'תשפ\"ז",
+    "candleLighting": "16:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-21",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י\"א בכסלו ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:10",
+    "rabenuTam": "17:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-27",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ח בכסלו ה'תשפ\"ז",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-11-28",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ח בכסלו ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-04",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ה בכסלו ה'תשפ\"ז",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-05",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ה בכסלו ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-11",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ב' בטבת ה'תשפ\"ז",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-12",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ב' בטבת ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:09",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-18",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תשפ\"ז",
+    "candleLighting": "16:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-19",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:11",
+    "rabenuTam": "17:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-25",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תשפ\"ז",
+    "candleLighting": "16:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2026-12-26",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:15",
+    "rabenuTam": "17:45"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-01",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תשפ\"ז",
+    "candleLighting": "16:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-02",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:20",
+    "rabenuTam": "17:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-08",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תשפ\"ז",
+    "candleLighting": "16:33",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-09",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:25",
+    "rabenuTam": "17:56"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-15",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תשפ\"ז",
+    "candleLighting": "16:39",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-16",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:31",
+    "rabenuTam": "18:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-22",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תשפ\"ז",
+    "candleLighting": "16:46",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-23",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:38",
+    "rabenuTam": "18:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-29",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תשפ\"ז",
+    "candleLighting": "16:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-01-30",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:44",
+    "rabenuTam": "18:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-05",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תשפ\"ז",
+    "candleLighting": "16:59",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-06",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:50",
+    "rabenuTam": "18:25"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-12",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר א' ה'תשפ\"ז",
+    "candleLighting": "17:05",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-13",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר א' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:57",
+    "rabenuTam": "18:33"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-19",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר א' ה'תשפ\"ז",
+    "candleLighting": "17:11",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-20",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר א' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:03",
+    "rabenuTam": "18:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-26",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר א' ה'תשפ\"ז",
+    "candleLighting": "17:16",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-02-27",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר א' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:08",
+    "rabenuTam": "18:47"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-05",
+    "torahPortion": "ויקהל",
+    "hebrewDate": "כ\"ז באדר א' ה'תשפ\"ז",
+    "candleLighting": "17:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-06",
+    "torahPortion": "ויקהל",
+    "hebrewDate": "כ\"ז באדר א' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:14",
+    "rabenuTam": "18:54"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-12",
+    "torahPortion": "פקודי",
+    "hebrewDate": "ד' באדר ב' ה'תשפ\"ז",
+    "candleLighting": "17:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-13",
+    "torahPortion": "פקודי",
+    "hebrewDate": "ד' באדר ב' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:19",
+    "rabenuTam": "19:00"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-19",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "י\"א באדר ב' ה'תשפ\"ז",
+    "candleLighting": "17:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-20",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "י\"א באדר ב' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:24",
+    "rabenuTam": "19:06"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-26",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ח באדר ב' ה'תשפ\"ז",
+    "candleLighting": "18:37",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-03-27",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ח באדר ב' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:28",
+    "rabenuTam": "20:13"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-02",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ה באדר ב' ה'תשפ\"ז",
+    "candleLighting": "18:41",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-03",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ה באדר ב' ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:33",
+    "rabenuTam": "20:19"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-09",
+    "torahPortion": "תזריע",
+    "hebrewDate": "ג' בניסן ה'תשפ\"ז",
+    "candleLighting": "18:46",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-10",
+    "torahPortion": "תזריע",
+    "hebrewDate": "ג' בניסן ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:38",
+    "rabenuTam": "20:25"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-16",
+    "torahPortion": "מצורע",
+    "hebrewDate": "י' בניסן ה'תשפ\"ז",
+    "candleLighting": "18:51",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-17",
+    "torahPortion": "מצורע",
+    "hebrewDate": "י' בניסן ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:43",
+    "rabenuTam": "20:31"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-21",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ז",
+    "candleLighting": "18:55",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-22",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:46",
+    "rabenuTam": "20:35"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-23",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בניסן ה'תשפ\"ז",
+    "candleLighting": "18:56",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-24",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בניסן ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:48",
+    "rabenuTam": "20:37"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-27",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ז",
+    "candleLighting": "18:59",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-28",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:50",
+    "rabenuTam": "20:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-04-30",
+    "torahPortion": "אחרי מות",
+    "hebrewDate": "כ\"ד בניסן ה'תשפ\"ז",
+    "candleLighting": "19:01",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-01",
+    "torahPortion": "אחרי מות",
+    "hebrewDate": "כ\"ד בניסן ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:53",
+    "rabenuTam": "20:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-07",
+    "torahPortion": "קדושים",
+    "hebrewDate": "א' באייר ה'תשפ\"ז",
+    "candleLighting": "19:06",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-08",
+    "torahPortion": "קדושים",
+    "hebrewDate": "א' באייר ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:57",
+    "rabenuTam": "20:49"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-14",
+    "torahPortion": "אמור",
+    "hebrewDate": "ח' באייר ה'תשפ\"ז",
+    "candleLighting": "19:11",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-15",
+    "torahPortion": "אמור",
+    "hebrewDate": "ח' באייר ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:02",
+    "rabenuTam": "20:55"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-21",
+    "torahPortion": "בהר",
+    "hebrewDate": "ט\"ו באייר ה'תשפ\"ז",
+    "candleLighting": "19:16",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-22",
+    "torahPortion": "בהר",
+    "hebrewDate": "ט\"ו באייר ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:07",
+    "rabenuTam": "21:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-28",
+    "torahPortion": "בחוקותי",
+    "hebrewDate": "כ\"ב באייר ה'תשפ\"ז",
+    "candleLighting": "19:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-05-29",
+    "torahPortion": "בחוקותי",
+    "hebrewDate": "כ\"ב באייר ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:12",
+    "rabenuTam": "21:06"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-04",
+    "torahPortion": "במדבר",
+    "hebrewDate": "כ\"ט באייר ה'תשפ\"ז",
+    "candleLighting": "19:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-05",
+    "torahPortion": "במדבר",
+    "hebrewDate": "כ\"ט באייר ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:15",
+    "rabenuTam": "21:11"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-10",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ז",
+    "candleLighting": "19:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-11",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:18",
+    "rabenuTam": "21:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-11",
+    "torahPortion": "נשא",
+    "hebrewDate": "ז' בסיוון ה'תשפ\"ז",
+    "candleLighting": "19:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-12",
+    "torahPortion": "נשא",
+    "hebrewDate": "ז' בסיוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:19",
+    "rabenuTam": "21:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-18",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ד בסיוון ה'תשפ\"ז",
+    "candleLighting": "19:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-19",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ד בסיוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-25",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"א בסיוון ה'תשפ\"ז",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-06-26",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"א בסיוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-02",
+    "torahPortion": "קרח",
+    "hebrewDate": "כ\"ח בסיוון ה'תשפ\"ז",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-03",
+    "torahPortion": "קרח",
+    "hebrewDate": "כ\"ח בסיוון ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-09",
+    "torahPortion": "חקת",
+    "hebrewDate": "ה' בתמוז ה'תשפ\"ז",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-10",
+    "torahPortion": "חקת",
+    "hebrewDate": "ה' בתמוז ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:16"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-16",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ב בתמוז ה'תשפ\"ז",
+    "candleLighting": "19:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-17",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ב בתמוז ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:19",
+    "rabenuTam": "21:13"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-23",
+    "torahPortion": "פנחס",
+    "hebrewDate": "י\"ט בתמוז ה'תשפ\"ז",
+    "candleLighting": "19:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-24",
+    "torahPortion": "פנחס",
+    "hebrewDate": "י\"ט בתמוז ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:15",
+    "rabenuTam": "21:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-30",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ו בתמוז ה'תשפ\"ז",
+    "candleLighting": "19:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-07-31",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ו בתמוז ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:10",
+    "rabenuTam": "21:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-06",
+    "torahPortion": "דברים",
+    "hebrewDate": "ד' באב ה'תשפ\"ז",
+    "candleLighting": "19:14",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-07",
+    "torahPortion": "דברים",
+    "hebrewDate": "ד' באב ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:05",
+    "rabenuTam": "20:56"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-13",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"א באב ה'תשפ\"ז",
+    "candleLighting": "19:08",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-14",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"א באב ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:58",
+    "rabenuTam": "20:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-20",
+    "torahPortion": "עקב",
+    "hebrewDate": "י\"ח באב ה'תשפ\"ז",
+    "candleLighting": "19:00",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-21",
+    "torahPortion": "עקב",
+    "hebrewDate": "י\"ח באב ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:50",
+    "rabenuTam": "20:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-27",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ה באב ה'תשפ\"ז",
+    "candleLighting": "18:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-08-28",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ה באב ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:42",
+    "rabenuTam": "20:30"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-03",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ב' באלול ה'תשפ\"ז",
+    "candleLighting": "18:43",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-04",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ב' באלול ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:33",
+    "rabenuTam": "20:20"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-10",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "ט' באלול ה'תשפ\"ז",
+    "candleLighting": "18:34",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-11",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "ט' באלול ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:24",
+    "rabenuTam": "20:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-17",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "ט\"ז באלול ה'תשפ\"ז",
+    "candleLighting": "18:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-18",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "ט\"ז באלול ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:15",
+    "rabenuTam": "19:59"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-24",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ג באלול ה'תשפ\"ז",
+    "candleLighting": "18:16",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-09-25",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ג באלול ה'תשפ\"ז",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:06",
+    "rabenuTam": "19:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-01",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ח",
+    "candleLighting": "18:07",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-02",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:56",
+    "rabenuTam": "19:38"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-02",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ח",
+    "candleLighting": "18:05",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-03",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:55",
+    "rabenuTam": "19:36"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-08",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ח' בתשרי ה'תשפ\"ח",
+    "candleLighting": "17:58",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-09",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ח' בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:48",
+    "rabenuTam": "19:27"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-10",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ח",
+    "candleLighting": "17:55",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-11",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:45",
+    "rabenuTam": "19:25"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-15",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ח",
+    "candleLighting": "17:49",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-16",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:39",
+    "rabenuTam": "19:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-22",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ח",
+    "candleLighting": "17:42",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-23",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:31",
+    "rabenuTam": "19:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-29",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ט בתשרי ה'תשפ\"ח",
+    "candleLighting": "17:35",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-10-30",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ט בתשרי ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:25",
+    "rabenuTam": "19:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-05",
+    "torahPortion": "נח",
+    "hebrewDate": "ו' בחשוון ה'תשפ\"ח",
+    "candleLighting": "16:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-06",
+    "torahPortion": "נח",
+    "hebrewDate": "ו' בחשוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:19",
+    "rabenuTam": "17:53"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-12",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"ג בחשוון ה'תשפ\"ח",
+    "candleLighting": "16:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-13",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"ג בחשוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:14",
+    "rabenuTam": "17:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-19",
+    "torahPortion": "וירא",
+    "hebrewDate": "כ' בחשוון ה'תשפ\"ח",
+    "candleLighting": "16:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-20",
+    "torahPortion": "וירא",
+    "hebrewDate": "כ' בחשוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:10",
+    "rabenuTam": "17:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-26",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ז בחשוון ה'תשפ\"ח",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-11-27",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ז בחשוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-03",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ד' בכסלו ה'תשפ\"ח",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-04",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ד' בכסלו ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-10",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י\"א בכסלו ה'תשפ\"ח",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-11",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י\"א בכסלו ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-17",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ח בכסלו ה'תשפ\"ח",
+    "candleLighting": "16:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-18",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ח בכסלו ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:11",
+    "rabenuTam": "17:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-24",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ה בכסלו ה'תשפ\"ח",
+    "candleLighting": "16:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2027-12-25",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ה בכסלו ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:14",
+    "rabenuTam": "17:45"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-07",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תשפ\"ח",
+    "candleLighting": "16:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-08",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:24",
+    "rabenuTam": "17:55"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-14",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תשפ\"ח",
+    "candleLighting": "16:38",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-15",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:30",
+    "rabenuTam": "18:02"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-21",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תשפ\"ח",
+    "candleLighting": "16:45",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-22",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:36",
+    "rabenuTam": "18:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-28",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תשפ\"ח",
+    "candleLighting": "16:51",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-01-29",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:43",
+    "rabenuTam": "18:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-04",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תשפ\"ח",
+    "candleLighting": "16:57",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-05",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:49",
+    "rabenuTam": "18:24"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-11",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תשפ\"ח",
+    "candleLighting": "17:04",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-12",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:56",
+    "rabenuTam": "18:32"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-18",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תשפ\"ח",
+    "candleLighting": "17:10",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-19",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:02",
+    "rabenuTam": "18:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-25",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תשפ\"ח",
+    "candleLighting": "17:15",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-02-26",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:07",
+    "rabenuTam": "18:46"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-03",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר ה'תשפ\"ח",
+    "candleLighting": "17:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-04",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:13",
+    "rabenuTam": "18:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-10",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר ה'תשפ\"ח",
+    "candleLighting": "17:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-11",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:18",
+    "rabenuTam": "18:59"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-17",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר ה'תשפ\"ח",
+    "candleLighting": "17:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-18",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:23",
+    "rabenuTam": "19:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-24",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ז באדר ה'תשפ\"ח",
+    "candleLighting": "17:36",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-25",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ז באדר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:27",
+    "rabenuTam": "19:11"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-03-31",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "ה' בניסן ה'תשפ\"ח",
+    "candleLighting": "18:41",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-01",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "ה' בניסן ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:32",
+    "rabenuTam": "20:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-07",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ב בניסן ה'תשפ\"ח",
+    "candleLighting": "18:45",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-08",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ב בניסן ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:37",
+    "rabenuTam": "20:24"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-10",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ח",
+    "candleLighting": "18:47",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-11",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:39",
+    "rabenuTam": "20:26"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-14",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ט בניסן ה'תשפ\"ח",
+    "candleLighting": "18:50",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-15",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ט בניסן ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:42",
+    "rabenuTam": "20:30"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-16",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ח",
+    "candleLighting": "18:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-17",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:43",
+    "rabenuTam": "20:32"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-21",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ו בניסן ה'תשפ\"ח",
+    "candleLighting": "18:55",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-22",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ו בניסן ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:47",
+    "rabenuTam": "20:36"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-28",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "ג' באייר ה'תשפ\"ח",
+    "candleLighting": "19:00",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-04-29",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "ג' באייר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:52",
+    "rabenuTam": "20:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-05",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "י' באייר ה'תשפ\"ח",
+    "candleLighting": "19:05",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-06",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "י' באייר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:57",
+    "rabenuTam": "20:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-12",
+    "torahPortion": "אמור",
+    "hebrewDate": "י\"ז באייר ה'תשפ\"ח",
+    "candleLighting": "19:10",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-13",
+    "torahPortion": "אמור",
+    "hebrewDate": "י\"ז באייר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:02",
+    "rabenuTam": "20:54"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-19",
+    "torahPortion": "בהר בחוקותי",
+    "hebrewDate": "כ\"ד באייר ה'תשפ\"ח",
+    "candleLighting": "19:15",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-20",
+    "torahPortion": "בהר בחוקותי",
+    "hebrewDate": "כ\"ד באייר ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:06",
+    "rabenuTam": "21:00"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-26",
+    "torahPortion": "במדבר",
+    "hebrewDate": "ב' בסיוון ה'תשפ\"ח",
+    "candleLighting": "19:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-27",
+    "torahPortion": "במדבר",
+    "hebrewDate": "ב' בסיוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:11",
+    "rabenuTam": "21:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-30",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ח",
+    "candleLighting": "19:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-05-31",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:13",
+    "rabenuTam": "21:08"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-02",
+    "torahPortion": "נשא",
+    "hebrewDate": "ט' בסיוון ה'תשפ\"ח",
+    "candleLighting": "19:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-03",
+    "torahPortion": "נשא",
+    "hebrewDate": "ט' בסיוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:15",
+    "rabenuTam": "21:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-09",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "ט\"ז בסיוון ה'תשפ\"ח",
+    "candleLighting": "19:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-10",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "ט\"ז בסיוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:18",
+    "rabenuTam": "21:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-16",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"ג בסיוון ה'תשפ\"ח",
+    "candleLighting": "19:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-17",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"ג בסיוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:16"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-23",
+    "torahPortion": "קרח",
+    "hebrewDate": "ל' בסיוון ה'תשפ\"ח",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-24",
+    "torahPortion": "קרח",
+    "hebrewDate": "ל' בסיוון ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-06-30",
+    "torahPortion": "חקת",
+    "hebrewDate": "ז' בתמוז ה'תשפ\"ח",
+    "candleLighting": "19:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-01",
+    "torahPortion": "חקת",
+    "hebrewDate": "ז' בתמוז ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-07",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ד בתמוז ה'תשפ\"ח",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-08",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ד בתמוז ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:16"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-14",
+    "torahPortion": "פנחס",
+    "hebrewDate": "כ\"א בתמוז ה'תשפ\"ח",
+    "candleLighting": "19:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-15",
+    "torahPortion": "פנחס",
+    "hebrewDate": "כ\"א בתמוז ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:19",
+    "rabenuTam": "21:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-21",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ח בתמוז ה'תשפ\"ח",
+    "candleLighting": "19:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-22",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ח בתמוז ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:16",
+    "rabenuTam": "21:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-28",
+    "torahPortion": "דברים",
+    "hebrewDate": "ו' באב ה'תשפ\"ח",
+    "candleLighting": "19:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-07-29",
+    "torahPortion": "דברים",
+    "hebrewDate": "ו' באב ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:11",
+    "rabenuTam": "21:04"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-04",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"ג באב ה'תשפ\"ח",
+    "candleLighting": "19:16",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-05",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"ג באב ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:06",
+    "rabenuTam": "20:57"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-11",
+    "torahPortion": "עקב",
+    "hebrewDate": "כ' באב ה'תשפ\"ח",
+    "candleLighting": "19:09",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-12",
+    "torahPortion": "עקב",
+    "hebrewDate": "כ' באב ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:59",
+    "rabenuTam": "20:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-18",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ז באב ה'תשפ\"ח",
+    "candleLighting": "19:02",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-19",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ז באב ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:52",
+    "rabenuTam": "20:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-25",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ד' באלול ה'תשפ\"ח",
+    "candleLighting": "18:54",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-08-26",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ד' באלול ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:43",
+    "rabenuTam": "20:32"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-01",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "י\"א באלול ה'תשפ\"ח",
+    "candleLighting": "18:45",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-02",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "י\"א באלול ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:35",
+    "rabenuTam": "20:22"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-08",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "י\"ח באלול ה'תשפ\"ח",
+    "candleLighting": "18:36",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-09",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "י\"ח באלול ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:26",
+    "rabenuTam": "20:11"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-15",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ה באלול ה'תשפ\"ח",
+    "candleLighting": "18:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-16",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ה באלול ה'תשפ\"ח",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:16",
+    "rabenuTam": "20:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-20",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ט",
+    "candleLighting": "18:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-21",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:10",
+    "rabenuTam": "19:53"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-21",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ט",
+    "candleLighting": "18:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-22",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:09",
+    "rabenuTam": "19:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-22",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ג' בתשרי ה'תשפ\"ט",
+    "candleLighting": "18:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-23",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ג' בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:07",
+    "rabenuTam": "19:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-29",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ט",
+    "candleLighting": "18:08",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-09-30",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:58",
+    "rabenuTam": "19:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-04",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ט",
+    "candleLighting": "18:02",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-05",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:52",
+    "rabenuTam": "19:32"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-06",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בתשרי ה'תשפ\"ט",
+    "candleLighting": "17:59",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-07",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:49",
+    "rabenuTam": "19:29"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-11",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ט",
+    "candleLighting": "17:53",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-12",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:43",
+    "rabenuTam": "19:22"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-13",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ד בתשרי ה'תשפ\"ט",
+    "candleLighting": "17:51",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-14",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ד בתשרי ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:41",
+    "rabenuTam": "19:19"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-20",
+    "torahPortion": "נח",
+    "hebrewDate": "א' בחשוון ה'תשפ\"ט",
+    "candleLighting": "17:43",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-21",
+    "torahPortion": "נח",
+    "hebrewDate": "א' בחשוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:33",
+    "rabenuTam": "19:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-27",
+    "torahPortion": "לך לך",
+    "hebrewDate": "ח' בחשוון ה'תשפ\"ט",
+    "candleLighting": "17:36",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-10-28",
+    "torahPortion": "לך לך",
+    "hebrewDate": "ח' בחשוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:26",
+    "rabenuTam": "19:02"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-03",
+    "torahPortion": "וירא",
+    "hebrewDate": "ט\"ו בחשוון ה'תשפ\"ט",
+    "candleLighting": "16:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-04",
+    "torahPortion": "וירא",
+    "hebrewDate": "ט\"ו בחשוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:20",
+    "rabenuTam": "17:55"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-10",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ב בחשוון ה'תשפ\"ט",
+    "candleLighting": "16:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-11",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ב בחשוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:15",
+    "rabenuTam": "17:49"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-17",
+    "torahPortion": "תולדות",
+    "hebrewDate": "כ\"ט בחשוון ה'תשפ\"ט",
+    "candleLighting": "16:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-18",
+    "torahPortion": "תולדות",
+    "hebrewDate": "כ\"ט בחשוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:11",
+    "rabenuTam": "17:44"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-24",
+    "torahPortion": "ויצא",
+    "hebrewDate": "ז' בכסלו ה'תשפ\"ט",
+    "candleLighting": "16:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-11-25",
+    "torahPortion": "ויצא",
+    "hebrewDate": "ז' בכסלו ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-01",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ד בכסלו ה'תשפ\"ט",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-02",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ד בכסלו ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-08",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"א בכסלו ה'תשפ\"ט",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-09",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"א בכסלו ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-15",
+    "torahPortion": "מקץ",
+    "hebrewDate": "כ\"ח בכסלו ה'תשפ\"ט",
+    "candleLighting": "16:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-16",
+    "torahPortion": "מקץ",
+    "hebrewDate": "כ\"ח בכסלו ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:10",
+    "rabenuTam": "17:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-22",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ה' בטבת ה'תשפ\"ט",
+    "candleLighting": "16:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-23",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ה' בטבת ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:13",
+    "rabenuTam": "17:44"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-29",
+    "torahPortion": "ויחי",
+    "hebrewDate": "י\"ב בטבת ה'תשפ\"ט",
+    "candleLighting": "16:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2028-12-30",
+    "torahPortion": "ויחי",
+    "hebrewDate": "י\"ב בטבת ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:18",
+    "rabenuTam": "17:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-05",
+    "torahPortion": "שמות",
+    "hebrewDate": "י\"ט בטבת ה'תשפ\"ט",
+    "candleLighting": "16:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-06",
+    "torahPortion": "שמות",
+    "hebrewDate": "י\"ט בטבת ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:23",
+    "rabenuTam": "17:54"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-12",
+    "torahPortion": "וארא",
+    "hebrewDate": "כ\"ו בטבת ה'תשפ\"ט",
+    "candleLighting": "16:37",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-13",
+    "torahPortion": "וארא",
+    "hebrewDate": "כ\"ו בטבת ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:29",
+    "rabenuTam": "18:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-19",
+    "torahPortion": "בא",
+    "hebrewDate": "ד' בשבט ה'תשפ\"ט",
+    "candleLighting": "16:43",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-20",
+    "torahPortion": "בא",
+    "hebrewDate": "ד' בשבט ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:35",
+    "rabenuTam": "18:08"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-26",
+    "torahPortion": "בשלח",
+    "hebrewDate": "י\"א בשבט ה'תשפ\"ט",
+    "candleLighting": "16:50",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-01-27",
+    "torahPortion": "בשלח",
+    "hebrewDate": "י\"א בשבט ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:42",
+    "rabenuTam": "18:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-02",
+    "torahPortion": "יתרו",
+    "hebrewDate": "י\"ח בשבט ה'תשפ\"ט",
+    "candleLighting": "16:56",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-03",
+    "torahPortion": "יתרו",
+    "hebrewDate": "י\"ח בשבט ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:48",
+    "rabenuTam": "18:23"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-09",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ה בשבט ה'תשפ\"ט",
+    "candleLighting": "17:03",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-10",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ה בשבט ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:54",
+    "rabenuTam": "18:30"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-16",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ב' באדר ה'תשפ\"ט",
+    "candleLighting": "17:09",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-17",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ב' באדר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:00",
+    "rabenuTam": "18:37"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-23",
+    "torahPortion": "תצוה",
+    "hebrewDate": "ט' באדר ה'תשפ\"ט",
+    "candleLighting": "17:14",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-02-24",
+    "torahPortion": "תצוה",
+    "hebrewDate": "ט' באדר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:06",
+    "rabenuTam": "18:45"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-02",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "ט\"ז באדר ה'תשפ\"ט",
+    "candleLighting": "17:20",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-03",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "ט\"ז באדר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:12",
+    "rabenuTam": "18:51"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-09",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ג באדר ה'תשפ\"ט",
+    "candleLighting": "17:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-10",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ג באדר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:17",
+    "rabenuTam": "18:58"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-16",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "א' בניסן ה'תשפ\"ט",
+    "candleLighting": "17:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-17",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "א' בניסן ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:22",
+    "rabenuTam": "19:04"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-23",
+    "torahPortion": "צו",
+    "hebrewDate": "ח' בניסן ה'תשפ\"ט",
+    "candleLighting": "17:35",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-24",
+    "torahPortion": "צו",
+    "hebrewDate": "ח' בניסן ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:27",
+    "rabenuTam": "19:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-30",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ט",
+    "candleLighting": "18:40",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-03-31",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:31",
+    "rabenuTam": "20:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-05",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ט",
+    "candleLighting": "18:44",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-06",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:35",
+    "rabenuTam": "20:22"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-06",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ב בניסן ה'תשפ\"ט",
+    "candleLighting": "18:45",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-07",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ב בניסן ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:36",
+    "rabenuTam": "20:23"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-13",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "כ\"ט בניסן ה'תשפ\"ט",
+    "candleLighting": "18:49",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-14",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "כ\"ט בניסן ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:41",
+    "rabenuTam": "20:29"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-20",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "ו' באייר ה'תשפ\"ט",
+    "candleLighting": "18:54",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-21",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "ו' באייר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:46",
+    "rabenuTam": "20:35"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-27",
+    "torahPortion": "אמור",
+    "hebrewDate": "י\"ג באייר ה'תשפ\"ט",
+    "candleLighting": "18:59",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-04-28",
+    "torahPortion": "אמור",
+    "hebrewDate": "י\"ג באייר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:51",
+    "rabenuTam": "20:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-04",
+    "torahPortion": "בהר",
+    "hebrewDate": "כ' באייר ה'תשפ\"ט",
+    "candleLighting": "19:04",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-05",
+    "torahPortion": "בהר",
+    "hebrewDate": "כ' באייר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:56",
+    "rabenuTam": "20:47"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-11",
+    "torahPortion": "בחוקותי",
+    "hebrewDate": "כ\"ז באייר ה'תשפ\"ט",
+    "candleLighting": "19:09",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-12",
+    "torahPortion": "בחוקותי",
+    "hebrewDate": "כ\"ז באייר ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:01",
+    "rabenuTam": "20:53"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-18",
+    "torahPortion": "במדבר",
+    "hebrewDate": "ה' בסיוון ה'תשפ\"ט",
+    "candleLighting": "19:14",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-19",
+    "torahPortion": "במדבר",
+    "hebrewDate": "ה' בסיוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:05",
+    "rabenuTam": "20:59"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-19",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ט",
+    "candleLighting": "19:15",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-20",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:06",
+    "rabenuTam": "21:00"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-25",
+    "torahPortion": "נשא",
+    "hebrewDate": "י\"ב בסיוון ה'תשפ\"ט",
+    "candleLighting": "19:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-05-26",
+    "torahPortion": "נשא",
+    "hebrewDate": "י\"ב בסיוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:10",
+    "rabenuTam": "21:04"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-01",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ט בסיוון ה'תשפ\"ט",
+    "candleLighting": "19:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-02",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ט בסיוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:14",
+    "rabenuTam": "21:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-08",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"ו בסיוון ה'תשפ\"ט",
+    "candleLighting": "19:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-09",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"ו בסיוון ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:18",
+    "rabenuTam": "21:13"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-15",
+    "torahPortion": "קרח",
+    "hebrewDate": "ג' בתמוז ה'תשפ\"ט",
+    "candleLighting": "19:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-16",
+    "torahPortion": "קרח",
+    "hebrewDate": "ג' בתמוז ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:20",
+    "rabenuTam": "21:16"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-22",
+    "torahPortion": "חקת",
+    "hebrewDate": "י' בתמוז ה'תשפ\"ט",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-23",
+    "torahPortion": "חקת",
+    "hebrewDate": "י' בתמוז ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-29",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ז בתמוז ה'תשפ\"ט",
+    "candleLighting": "19:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-06-30",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ז בתמוז ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-06",
+    "torahPortion": "פנחס",
+    "hebrewDate": "כ\"ד בתמוז ה'תשפ\"ט",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-07",
+    "torahPortion": "פנחס",
+    "hebrewDate": "כ\"ד בתמוז ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-13",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "ב' באב ה'תשפ\"ט",
+    "candleLighting": "19:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-14",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "ב' באב ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:20",
+    "rabenuTam": "21:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-20",
+    "torahPortion": "דברים",
+    "hebrewDate": "ט' באב ה'תשפ\"ט",
+    "candleLighting": "19:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-21",
+    "torahPortion": "דברים",
+    "hebrewDate": "ט' באב ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:17",
+    "rabenuTam": "21:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-27",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "ט\"ז באב ה'תשפ\"ט",
+    "candleLighting": "19:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-07-28",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "ט\"ז באב ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:12",
+    "rabenuTam": "21:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-03",
+    "torahPortion": "עקב",
+    "hebrewDate": "כ\"ג באב ה'תשפ\"ט",
+    "candleLighting": "19:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-04",
+    "torahPortion": "עקב",
+    "hebrewDate": "כ\"ג באב ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:07",
+    "rabenuTam": "20:59"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-10",
+    "torahPortion": "ראה",
+    "hebrewDate": "ל' באב ה'תשפ\"ט",
+    "candleLighting": "19:10",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-11",
+    "torahPortion": "ראה",
+    "hebrewDate": "ל' באב ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:00",
+    "rabenuTam": "20:51"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-17",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ז' באלול ה'תשפ\"ט",
+    "candleLighting": "19:03",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-18",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ז' באלול ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:53",
+    "rabenuTam": "20:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-24",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "י\"ד באלול ה'תשפ\"ט",
+    "candleLighting": "18:55",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-25",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "י\"ד באלול ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:45",
+    "rabenuTam": "20:33"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-08-31",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "כ\"א באלול ה'תשפ\"ט",
+    "candleLighting": "18:47",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-01",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "כ\"א באלול ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:36",
+    "rabenuTam": "20:23"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-07",
+    "torahPortion": "ניצבים",
+    "hebrewDate": "כ\"ח באלול ה'תשפ\"ט",
+    "candleLighting": "18:38",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-08",
+    "torahPortion": "ניצבים",
+    "hebrewDate": "כ\"ח באלול ה'תשפ\"ט",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:27",
+    "rabenuTam": "20:13"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-09",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תש\"צ",
+    "candleLighting": "18:35",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-10",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:25",
+    "rabenuTam": "20:10"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-10",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תש\"צ",
+    "candleLighting": "18:34",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-11",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:23",
+    "rabenuTam": "20:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-14",
+    "torahPortion": "וילך",
+    "hebrewDate": "ו' בתשרי ה'תש\"צ",
+    "candleLighting": "18:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-15",
+    "torahPortion": "וילך",
+    "hebrewDate": "ו' בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:18",
+    "rabenuTam": "20:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-18",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תש\"צ",
+    "candleLighting": "18:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-19",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:13",
+    "rabenuTam": "19:56"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-21",
+    "torahPortion": "האזינו",
+    "hebrewDate": "י\"ג בתשרי ה'תש\"צ",
+    "candleLighting": "18:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-22",
+    "torahPortion": "האזינו",
+    "hebrewDate": "י\"ג בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:09",
+    "rabenuTam": "19:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-23",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תש\"צ",
+    "candleLighting": "18:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-24",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:06",
+    "rabenuTam": "19:49"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-28",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "כ' בתשרי ה'תש\"צ",
+    "candleLighting": "18:10",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-29",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "כ' בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:00",
+    "rabenuTam": "19:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-09-30",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תש\"צ",
+    "candleLighting": "18:07",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-01",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:57",
+    "rabenuTam": "19:38"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-05",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ז בתשרי ה'תש\"צ",
+    "candleLighting": "18:01",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-06",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ז בתשרי ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:51",
+    "rabenuTam": "19:31"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-12",
+    "torahPortion": "נח",
+    "hebrewDate": "ד' בחשוון ה'תש\"צ",
+    "candleLighting": "17:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-13",
+    "torahPortion": "נח",
+    "hebrewDate": "ד' בחשוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:42",
+    "rabenuTam": "19:21"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-19",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"א בחשוון ה'תש\"צ",
+    "candleLighting": "17:44",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-20",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"א בחשוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:34",
+    "rabenuTam": "19:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-26",
+    "torahPortion": "וירא",
+    "hebrewDate": "י\"ח בחשוון ה'תש\"צ",
+    "candleLighting": "17:37",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-10-27",
+    "torahPortion": "וירא",
+    "hebrewDate": "י\"ח בחשוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:27",
+    "rabenuTam": "19:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-02",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ה בחשוון ה'תש\"צ",
+    "candleLighting": "16:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-03",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ה בחשוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:21",
+    "rabenuTam": "17:56"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-09",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ג' בכסלו ה'תש\"צ",
+    "candleLighting": "16:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-10",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ג' בכסלו ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:15",
+    "rabenuTam": "17:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-16",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י' בכסלו ה'תש\"צ",
+    "candleLighting": "16:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-17",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י' בכסלו ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:11",
+    "rabenuTam": "17:45"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-23",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ז בכסלו ה'תש\"צ",
+    "candleLighting": "16:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-24",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ז בכסלו ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:09",
+    "rabenuTam": "17:41"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-11-30",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ד בכסלו ה'תש\"צ",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-01",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ד בכסלו ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-07",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ב' בטבת ה'תש\"צ",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-08",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ב' בטבת ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-14",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תש\"צ",
+    "candleLighting": "16:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-15",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:10",
+    "rabenuTam": "17:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-21",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תש\"צ",
+    "candleLighting": "16:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-22",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:13",
+    "rabenuTam": "17:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-28",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תש\"צ",
+    "candleLighting": "16:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2029-12-29",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:17",
+    "rabenuTam": "17:48"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-04",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תש\"צ",
+    "candleLighting": "16:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-05",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:22",
+    "rabenuTam": "17:53"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-11",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תש\"צ",
+    "candleLighting": "16:36",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-12",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:28",
+    "rabenuTam": "17:59"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-18",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תש\"צ",
+    "candleLighting": "16:42",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-19",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:34",
+    "rabenuTam": "18:07"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-25",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תש\"צ",
+    "candleLighting": "16:49",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-01-26",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:41",
+    "rabenuTam": "18:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-01",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תש\"צ",
+    "candleLighting": "16:55",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-02",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:47",
+    "rabenuTam": "18:21"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-08",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר א' ה'תש\"צ",
+    "candleLighting": "17:02",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-09",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר א' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:53",
+    "rabenuTam": "18:29"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-15",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר א' ה'תש\"צ",
+    "candleLighting": "17:08",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-16",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר א' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:59",
+    "rabenuTam": "18:36"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-22",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר א' ה'תש\"צ",
+    "candleLighting": "17:13",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-02-23",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר א' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:05",
+    "rabenuTam": "18:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-01",
+    "torahPortion": "ויקהל",
+    "hebrewDate": "כ\"ז באדר א' ה'תש\"צ",
+    "candleLighting": "17:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-02",
+    "torahPortion": "ויקהל",
+    "hebrewDate": "כ\"ז באדר א' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:11",
+    "rabenuTam": "18:50"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-08",
+    "torahPortion": "פקודי",
+    "hebrewDate": "ד' באדר ב' ה'תש\"צ",
+    "candleLighting": "17:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-09",
+    "torahPortion": "פקודי",
+    "hebrewDate": "ד' באדר ב' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:16",
+    "rabenuTam": "18:57"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-15",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "י\"א באדר ב' ה'תש\"צ",
+    "candleLighting": "17:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-16",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "י\"א באדר ב' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:21",
+    "rabenuTam": "19:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-22",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ח באדר ב' ה'תש\"צ",
+    "candleLighting": "17:34",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-23",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ח באדר ב' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:26",
+    "rabenuTam": "19:09"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-29",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ה באדר ב' ה'תש\"צ",
+    "candleLighting": "18:39",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-03-30",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ה באדר ב' ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:31",
+    "rabenuTam": "20:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-05",
+    "torahPortion": "תזריע",
+    "hebrewDate": "ג' בניסן ה'תש\"צ",
+    "candleLighting": "18:44",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-06",
+    "torahPortion": "תזריע",
+    "hebrewDate": "ג' בניסן ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:35",
+    "rabenuTam": "20:22"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-12",
+    "torahPortion": "מצורע",
+    "hebrewDate": "י' בניסן ה'תש\"צ",
+    "candleLighting": "18:48",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-13",
+    "torahPortion": "מצורע",
+    "hebrewDate": "י' בניסן ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:40",
+    "rabenuTam": "20:28"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-17",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תש\"צ",
+    "candleLighting": "18:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-18",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:44",
+    "rabenuTam": "20:32"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-19",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בניסן ה'תש\"צ",
+    "candleLighting": "18:53",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-20",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ז בניסן ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:45",
+    "rabenuTam": "20:34"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-23",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תש\"צ",
+    "candleLighting": "18:56",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-24",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:48",
+    "rabenuTam": "20:37"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-26",
+    "torahPortion": "אחרי מות",
+    "hebrewDate": "כ\"ד בניסן ה'תש\"צ",
+    "candleLighting": "18:58",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-04-27",
+    "torahPortion": "אחרי מות",
+    "hebrewDate": "כ\"ד בניסן ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:50",
+    "rabenuTam": "20:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-03",
+    "torahPortion": "קדושים",
+    "hebrewDate": "א' באייר ה'תש\"צ",
+    "candleLighting": "19:03",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-04",
+    "torahPortion": "קדושים",
+    "hebrewDate": "א' באייר ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:55",
+    "rabenuTam": "20:46"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-10",
+    "torahPortion": "אמור",
+    "hebrewDate": "ח' באייר ה'תש\"צ",
+    "candleLighting": "19:08",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-11",
+    "torahPortion": "אמור",
+    "hebrewDate": "ח' באייר ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:00",
+    "rabenuTam": "20:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-17",
+    "torahPortion": "בהר",
+    "hebrewDate": "ט\"ו באייר ה'תש\"צ",
+    "candleLighting": "19:13",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-18",
+    "torahPortion": "בהר",
+    "hebrewDate": "ט\"ו באייר ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:05",
+    "rabenuTam": "20:58"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-24",
+    "torahPortion": "בחוקותי",
+    "hebrewDate": "כ\"ב באייר ה'תש\"צ",
+    "candleLighting": "19:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-25",
+    "torahPortion": "בחוקותי",
+    "hebrewDate": "כ\"ב באייר ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:09",
+    "rabenuTam": "21:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-05-31",
+    "torahPortion": "במדבר",
+    "hebrewDate": "כ\"ט באייר ה'תש\"צ",
+    "candleLighting": "19:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-01",
+    "torahPortion": "במדבר",
+    "hebrewDate": "כ\"ט באייר ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:13",
+    "rabenuTam": "21:08"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-06",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תש\"צ",
+    "candleLighting": "19:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-07",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:17",
+    "rabenuTam": "21:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-07",
+    "torahPortion": "נשא",
+    "hebrewDate": "ז' בסיוון ה'תש\"צ",
+    "candleLighting": "19:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-08",
+    "torahPortion": "נשא",
+    "hebrewDate": "ז' בסיוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:17",
+    "rabenuTam": "21:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-14",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ד בסיוון ה'תש\"צ",
+    "candleLighting": "19:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-15",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "י\"ד בסיוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:20",
+    "rabenuTam": "21:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-21",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"א בסיוון ה'תש\"צ",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-22",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"א בסיוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-28",
+    "torahPortion": "קרח",
+    "hebrewDate": "כ\"ח בסיוון ה'תש\"צ",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-06-29",
+    "torahPortion": "קרח",
+    "hebrewDate": "כ\"ח בסיוון ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-05",
+    "torahPortion": "חקת",
+    "hebrewDate": "ה' בתמוז ה'תש\"צ",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-06",
+    "torahPortion": "חקת",
+    "hebrewDate": "ה' בתמוז ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-12",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ב בתמוז ה'תש\"צ",
+    "candleLighting": "19:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-13",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ב בתמוז ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:20",
+    "rabenuTam": "21:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-19",
+    "torahPortion": "פנחס",
+    "hebrewDate": "י\"ט בתמוז ה'תש\"צ",
+    "candleLighting": "19:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-20",
+    "torahPortion": "פנחס",
+    "hebrewDate": "י\"ט בתמוז ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:17",
+    "rabenuTam": "21:11"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-26",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ו בתמוז ה'תש\"צ",
+    "candleLighting": "19:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-07-27",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ו בתמוז ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:13",
+    "rabenuTam": "21:06"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-02",
+    "torahPortion": "דברים",
+    "hebrewDate": "ד' באב ה'תש\"צ",
+    "candleLighting": "19:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-03",
+    "torahPortion": "דברים",
+    "hebrewDate": "ד' באב ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:08",
+    "rabenuTam": "21:00"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-09",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"א באב ה'תש\"צ",
+    "candleLighting": "19:12",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-10",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"א באב ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:01",
+    "rabenuTam": "20:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-16",
+    "torahPortion": "עקב",
+    "hebrewDate": "י\"ח באב ה'תש\"צ",
+    "candleLighting": "19:04",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-17",
+    "torahPortion": "עקב",
+    "hebrewDate": "י\"ח באב ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:54",
+    "rabenuTam": "20:44"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-23",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ה באב ה'תש\"צ",
+    "candleLighting": "18:57",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-24",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ה באב ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:46",
+    "rabenuTam": "20:35"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-30",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ב' באלול ה'תש\"צ",
+    "candleLighting": "18:48",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-08-31",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ב' באלול ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:38",
+    "rabenuTam": "20:25"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-06",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "ט' באלול ה'תש\"צ",
+    "candleLighting": "18:39",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-07",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "ט' באלול ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:29",
+    "rabenuTam": "20:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-13",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "ט\"ז באלול ה'תש\"צ",
+    "candleLighting": "18:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-14",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "ט\"ז באלול ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:20",
+    "rabenuTam": "20:04"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-20",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ג באלול ה'תש\"צ",
+    "candleLighting": "18:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-21",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ג באלול ה'תש\"צ",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:10",
+    "rabenuTam": "19:54"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-27",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשצ\"א",
+    "candleLighting": "18:12",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-28",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "א' בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:01",
+    "rabenuTam": "19:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-28",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשצ\"א",
+    "candleLighting": "18:10",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-09-29",
+    "torahPortion": "ראש השנה",
+    "hebrewDate": "ב' בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:00",
+    "rabenuTam": "19:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-04",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ח' בתשרי ה'תשצ\"א",
+    "candleLighting": "18:03",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-05",
+    "torahPortion": "האזינו",
+    "hebrewDate": "ח' בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:52",
+    "rabenuTam": "19:33"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-06",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשצ\"א",
+    "candleLighting": "18:00",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-07",
+    "torahPortion": "יום כיפור",
+    "hebrewDate": "י' בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:50",
+    "rabenuTam": "19:30"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-11",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשצ\"א",
+    "candleLighting": "17:54",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-12",
+    "torahPortion": "סוכות",
+    "hebrewDate": "ט\"ו בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:44",
+    "rabenuTam": "19:23"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-18",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשצ\"א",
+    "candleLighting": "17:46",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-19",
+    "torahPortion": "שמחת תורה",
+    "hebrewDate": "כ\"ב בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:36",
+    "rabenuTam": "19:13"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-25",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ט בתשרי ה'תשצ\"א",
+    "candleLighting": "17:38",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-10-26",
+    "torahPortion": "בראשית",
+    "hebrewDate": "כ\"ט בתשרי ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:28",
+    "rabenuTam": "19:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-01",
+    "torahPortion": "נח",
+    "hebrewDate": "ו' בחשוון ה'תשצ\"א",
+    "candleLighting": "16:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-02",
+    "torahPortion": "נח",
+    "hebrewDate": "ו' בחשוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:22",
+    "rabenuTam": "17:57"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-08",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"ג בחשוון ה'תשצ\"א",
+    "candleLighting": "16:26",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-09",
+    "torahPortion": "לך לך",
+    "hebrewDate": "י\"ג בחשוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:16",
+    "rabenuTam": "17:51"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-15",
+    "torahPortion": "וירא",
+    "hebrewDate": "כ' בחשוון ה'תשצ\"א",
+    "candleLighting": "16:22",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-16",
+    "torahPortion": "וירא",
+    "hebrewDate": "כ' בחשוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:12",
+    "rabenuTam": "17:45"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-22",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ז בחשוון ה'תשצ\"א",
+    "candleLighting": "16:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-23",
+    "torahPortion": "חיי שרה",
+    "hebrewDate": "כ\"ז בחשוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:09",
+    "rabenuTam": "17:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-29",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ד' בכסלו ה'תשצ\"א",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-11-30",
+    "torahPortion": "תולדות",
+    "hebrewDate": "ד' בכסלו ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-06",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י\"א בכסלו ה'תשצ\"א",
+    "candleLighting": "16:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-07",
+    "torahPortion": "ויצא",
+    "hebrewDate": "י\"א בכסלו ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:08",
+    "rabenuTam": "17:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-13",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ח בכסלו ה'תשצ\"א",
+    "candleLighting": "16:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-14",
+    "torahPortion": "וישלח",
+    "hebrewDate": "י\"ח בכסלו ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:09",
+    "rabenuTam": "17:40"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-20",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ה בכסלו ה'תשצ\"א",
+    "candleLighting": "16:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-21",
+    "torahPortion": "וישב",
+    "hebrewDate": "כ\"ה בכסלו ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:12",
+    "rabenuTam": "17:43"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-27",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ב' בטבת ה'תשצ\"א",
+    "candleLighting": "16:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2030-12-28",
+    "torahPortion": "מקץ",
+    "hebrewDate": "ב' בטבת ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:16",
+    "rabenuTam": "17:47"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-03",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תשצ\"א",
+    "candleLighting": "16:29",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-04",
+    "torahPortion": "ויגש",
+    "hebrewDate": "ט' בטבת ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:21",
+    "rabenuTam": "17:52"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-10",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תשצ\"א",
+    "candleLighting": "16:35",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-11",
+    "torahPortion": "ויחי",
+    "hebrewDate": "ט\"ז בטבת ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:27",
+    "rabenuTam": "17:58"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-17",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תשצ\"א",
+    "candleLighting": "16:41",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-18",
+    "torahPortion": "שמות",
+    "hebrewDate": "כ\"ג בטבת ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:33",
+    "rabenuTam": "18:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-24",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תשצ\"א",
+    "candleLighting": "16:48",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-25",
+    "torahPortion": "וארא",
+    "hebrewDate": "א' בשבט ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:39",
+    "rabenuTam": "18:13"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-01-31",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תשצ\"א",
+    "candleLighting": "16:54",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-01",
+    "torahPortion": "בא",
+    "hebrewDate": "ח' בשבט ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:46",
+    "rabenuTam": "18:20"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-07",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תשצ\"א",
+    "candleLighting": "17:00",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-08",
+    "torahPortion": "בשלח",
+    "hebrewDate": "ט\"ו בשבט ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:52",
+    "rabenuTam": "18:28"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-14",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תשצ\"א",
+    "candleLighting": "17:07",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-15",
+    "torahPortion": "יתרו",
+    "hebrewDate": "כ\"ב בשבט ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "17:58",
+    "rabenuTam": "18:35"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-21",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תשצ\"א",
+    "candleLighting": "17:12",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-22",
+    "torahPortion": "משפטים",
+    "hebrewDate": "כ\"ט בשבט ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:04",
+    "rabenuTam": "18:42"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-02-28",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר ה'תשצ\"א",
+    "candleLighting": "17:18",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-01",
+    "torahPortion": "תרומה",
+    "hebrewDate": "ו' באדר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:10",
+    "rabenuTam": "18:49"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-07",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר ה'תשצ\"א",
+    "candleLighting": "17:23",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-08",
+    "torahPortion": "תצוה",
+    "hebrewDate": "י\"ג באדר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:15",
+    "rabenuTam": "18:56"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-14",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר ה'תשצ\"א",
+    "candleLighting": "17:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-15",
+    "torahPortion": "כי תשא",
+    "hebrewDate": "כ' באדר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:20",
+    "rabenuTam": "19:02"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-21",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ז באדר ה'תשצ\"א",
+    "candleLighting": "17:33",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-22",
+    "torahPortion": "ויקהל פקודי",
+    "hebrewDate": "כ\"ז באדר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "18:25",
+    "rabenuTam": "19:08"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-28",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "ה' בניסן ה'תשצ\"א",
+    "candleLighting": "18:38",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-03-29",
+    "torahPortion": "ויקרא",
+    "hebrewDate": "ה' בניסן ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:30",
+    "rabenuTam": "20:14"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-04",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ב בניסן ה'תשצ\"א",
+    "candleLighting": "18:43",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-05",
+    "torahPortion": "צו",
+    "hebrewDate": "י\"ב בניסן ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:34",
+    "rabenuTam": "20:21"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-07",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשצ\"א",
+    "candleLighting": "18:45",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-08",
+    "torahPortion": "פסח",
+    "hebrewDate": "ט\"ו בניסן ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:36",
+    "rabenuTam": "20:23"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-11",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ט בניסן ה'תשצ\"א",
+    "candleLighting": "18:48",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-12",
+    "torahPortion": "שבת חול המועד",
+    "hebrewDate": "י\"ט בניסן ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:39",
+    "rabenuTam": "20:27"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-13",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשצ\"א",
+    "candleLighting": "18:49",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-14",
+    "torahPortion": "שביעי של פסח",
+    "hebrewDate": "כ\"א בניסן ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:41",
+    "rabenuTam": "20:28"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-18",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ו בניסן ה'תשצ\"א",
+    "candleLighting": "18:52",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-19",
+    "torahPortion": "שמיני",
+    "hebrewDate": "כ\"ו בניסן ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:44",
+    "rabenuTam": "20:33"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-25",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "ג' באייר ה'תשצ\"א",
+    "candleLighting": "18:57",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-04-26",
+    "torahPortion": "תזריע מצורע",
+    "hebrewDate": "ג' באייר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:49",
+    "rabenuTam": "20:39"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-02",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "י' באייר ה'תשצ\"א",
+    "candleLighting": "19:02",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-03",
+    "torahPortion": "אחרי מות קדושים",
+    "hebrewDate": "י' באייר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:54",
+    "rabenuTam": "20:45"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-09",
+    "torahPortion": "אמור",
+    "hebrewDate": "י\"ז באייר ה'תשצ\"א",
+    "candleLighting": "19:07",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-10",
+    "torahPortion": "אמור",
+    "hebrewDate": "י\"ז באייר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:59",
+    "rabenuTam": "20:51"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-16",
+    "torahPortion": "בהר בחוקותי",
+    "hebrewDate": "כ\"ד באייר ה'תשצ\"א",
+    "candleLighting": "19:12",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-17",
+    "torahPortion": "בהר בחוקותי",
+    "hebrewDate": "כ\"ד באייר ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:04",
+    "rabenuTam": "20:57"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-23",
+    "torahPortion": "במדבר",
+    "hebrewDate": "ב' בסיוון ה'תשצ\"א",
+    "candleLighting": "19:17",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-24",
+    "torahPortion": "במדבר",
+    "hebrewDate": "ב' בסיוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:08",
+    "rabenuTam": "21:03"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-27",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשצ\"א",
+    "candleLighting": "19:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-28",
+    "torahPortion": "שבועות",
+    "hebrewDate": "ו' בסיוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:11",
+    "rabenuTam": "21:05"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-30",
+    "torahPortion": "נשא",
+    "hebrewDate": "ט' בסיוון ה'תשצ\"א",
+    "candleLighting": "19:21",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-05-31",
+    "torahPortion": "נשא",
+    "hebrewDate": "ט' בסיוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:13",
+    "rabenuTam": "21:07"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-06",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "ט\"ז בסיוון ה'תשצ\"א",
+    "candleLighting": "19:25",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-07",
+    "torahPortion": "בהעלותך",
+    "hebrewDate": "ט\"ז בסיוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:16",
+    "rabenuTam": "21:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-13",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"ג בסיוון ה'תשצ\"א",
+    "candleLighting": "19:28",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-14",
+    "torahPortion": "שלח",
+    "hebrewDate": "כ\"ג בסיוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:19",
+    "rabenuTam": "21:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-20",
+    "torahPortion": "קרח",
+    "hebrewDate": "ל' בסיוון ה'תשצ\"א",
+    "candleLighting": "19:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-21",
+    "torahPortion": "קרח",
+    "hebrewDate": "ל' בסיוון ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-27",
+    "torahPortion": "חקת",
+    "hebrewDate": "ז' בתמוז ה'תשצ\"א",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-06-28",
+    "torahPortion": "חקת",
+    "hebrewDate": "ז' בתמוז ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:18"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-04",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ד בתמוז ה'תשצ\"א",
+    "candleLighting": "19:31",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-05",
+    "torahPortion": "בלק",
+    "hebrewDate": "י\"ד בתמוז ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:22",
+    "rabenuTam": "21:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-11",
+    "torahPortion": "פנחס",
+    "hebrewDate": "כ\"א בתמוז ה'תשצ\"א",
+    "candleLighting": "19:30",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-12",
+    "torahPortion": "פנחס",
+    "hebrewDate": "כ\"א בתמוז ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:21",
+    "rabenuTam": "21:15"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-18",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ח בתמוז ה'תשצ\"א",
+    "candleLighting": "19:27",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-19",
+    "torahPortion": "מטות ומסעי",
+    "hebrewDate": "כ\"ח בתמוז ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:18",
+    "rabenuTam": "21:12"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-25",
+    "torahPortion": "דברים",
+    "hebrewDate": "ו' באב ה'תשצ\"א",
+    "candleLighting": "19:24",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-07-26",
+    "torahPortion": "דברים",
+    "hebrewDate": "ו' באב ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:14",
+    "rabenuTam": "21:07"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-01",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"ג באב ה'תשצ\"א",
+    "candleLighting": "19:19",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-02",
+    "torahPortion": "ואתחנן",
+    "hebrewDate": "י\"ג באב ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:09",
+    "rabenuTam": "21:01"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-08",
+    "torahPortion": "עקב",
+    "hebrewDate": "כ' באב ה'תשצ\"א",
+    "candleLighting": "19:13",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-09",
+    "torahPortion": "עקב",
+    "hebrewDate": "כ' באב ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "20:03",
+    "rabenuTam": "20:54"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-15",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ז באב ה'תשצ\"א",
+    "candleLighting": "19:06",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-16",
+    "torahPortion": "ראה",
+    "hebrewDate": "כ\"ז באב ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:56",
+    "rabenuTam": "20:46"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-22",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ד' באלול ה'תשצ\"א",
+    "candleLighting": "18:58",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-23",
+    "torahPortion": "שופטים",
+    "hebrewDate": "ד' באלול ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:48",
+    "rabenuTam": "20:37"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-29",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "י\"א באלול ה'תשצ\"א",
+    "candleLighting": "18:50",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-08-30",
+    "torahPortion": "כי תצא",
+    "hebrewDate": "י\"א באלול ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:39",
+    "rabenuTam": "20:27"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-09-05",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "י\"ח באלול ה'תשצ\"א",
+    "candleLighting": "18:41",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-09-06",
+    "torahPortion": "כי תבוא",
+    "hebrewDate": "י\"ח באלול ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:31",
+    "rabenuTam": "20:17"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-09-12",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ה באלול ה'תשצ\"א",
+    "candleLighting": "18:32",
+    "shabbatExit": "לא זמין",
+    "rabenuTam": "לא זמין"
+  },
+  {
+    "city": "תל אביב",
+    "date": "2031-09-13",
+    "torahPortion": "ניצבים וילך",
+    "hebrewDate": "כ\"ה באלול ה'תשצ\"א",
+    "candleLighting": "לא זמין",
+    "shabbatExit": "19:21",
+    "rabenuTam": "20:06"
+  }
+]
