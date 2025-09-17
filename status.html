@@ -333,6 +333,28 @@
       titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
     }
 
+    // עדכון טקסט תחתית לפי החג
+    const footerElement = document.querySelector('.footer-text');
+    if (footerElement) {
+      let footerText = "שבת שלום ומבורך"; // ברירת מחדל
+      
+      if (torahPortion) {
+        if (torahPortion.includes("ראש השנה")) {
+          footerText = "כתיבה וחתימה טובה";
+        } else if (torahPortion.includes("יום כיפור")) {
+          footerText = "גמר חתימה טובה";
+        } else if (torahPortion.includes("סוכות")) {
+          footerText = "חג שמח";
+        } else if (torahPortion.includes("פסח")) {
+          footerText = "פסח כשר ושמח";
+        } else if (torahPortion.includes("שבועות")) {
+          footerText = "חג שמח";
+        }
+      }
+      
+      footerElement.textContent = footerText;
+    }
+
     cities.forEach((city) => {
       // מציאת האירוע של העיר הזו בתאריך (הנתונים כבר מאוחדים)
       const cityData = closestEvents.find(event => event.city === city.name);
