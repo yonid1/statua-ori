@@ -355,6 +355,29 @@
       footerElement.textContent = footerText;
     }
 
+    // עדכון תמונת רקע לפי החג
+    const bodyElement = document.body;
+    if (bodyElement) {
+      let backgroundImage = "candel3.webp"; // ברירת מחדל
+      
+      if (torahPortion) {
+        if (torahPortion.includes("ראש השנה")) {
+          backgroundImage = "rosh-hashna.jpeg";
+        } else if (torahPortion.includes("יום כיפור")) {
+          backgroundImage = "candel3.webp"; // עדיין לא הוספת תמונה
+        } else if (torahPortion.includes("סוכות")) {
+          backgroundImage = "candel3.webp"; // עדיין לא הוספת תמונה
+        } else if (torahPortion.includes("פסח")) {
+          backgroundImage = "candel3.webp"; // עדיין לא הוספת תמונה
+        } else if (torahPortion.includes("שבועות")) {
+          backgroundImage = "candel3.webp"; // עדיין לא הוספת תמונה
+        }
+      }
+      
+      // עדכון תמונת הרקע
+      bodyElement.style.backgroundImage = `url('${backgroundImage}')`;
+    }
+
     cities.forEach((city) => {
       // מציאת האירוע של העיר הזו בתאריך (הנתונים כבר מאוחדים)
       const cityData = closestEvents.find(event => event.city === city.name);
@@ -362,11 +385,11 @@
       if (cityData) {
         console.log(`Updating times for ${city.name}:`, cityData);
 
-        document.getElementById(`${city.id}-shabbat-enter`).textContent =
+              document.getElementById(`${city.id}-shabbat-enter`).textContent =
           cityData.candleLighting && cityData.candleLighting !== "לא זמין" ? cityData.candleLighting : "לא זמין";
-        document.getElementById(`${city.id}-shabbat-exit`).textContent =
+              document.getElementById(`${city.id}-shabbat-exit`).textContent =
           cityData.shabbatExit && cityData.shabbatExit !== "לא זמין" ? cityData.shabbatExit : "לא זמין";
-        document.getElementById(`${city.id}-rabenu-tam`).textContent =
+              document.getElementById(`${city.id}-rabenu-tam`).textContent =
           cityData.rabenuTam && cityData.rabenuTam !== "לא זמין" ? cityData.rabenuTam : "לא זמין";
       } else {
         console.warn(`No data found for ${city.name} on ${closestDate}`);
@@ -375,10 +398,10 @@
         document.getElementById(`${city.id}-rabenu-tam`).textContent = "לא זמין";
       }
     });
-  } catch (error) {
-    console.error("Error loading Shabbat times:", error);
-  }
-}
+        } catch (error) {
+          console.error("Error loading Shabbat times:", error);
+        }
+      }
 
       
       function downloadImage() {
