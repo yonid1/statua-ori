@@ -510,175 +510,136 @@
         }
       }
 
-      function downloadImage() {
+      async function downloadImage() {
         const statusElement = document.getElementById("status");
         
-        setTimeout(() => {
-          html2canvas(statusElement, {
-            scale: 2,
-            width: statusElement.offsetWidth,
-            height: statusElement.offsetHeight,
-            backgroundColor: null,
-            onclone: (clonedDocument) => {
-              const container = clonedDocument.querySelector(".status-container");
-              container.style.backgroundSize = "cover";
-              container.style.backgroundPosition = "center";
-              container.style.backgroundRepeat = "no-repeat";
-              
-              const personImg = clonedDocument.getElementById('person-overlay');
-              if (personImg) {
-                personImg.style.display = 'block';
+        setTimeout(async () => {
+          try {
+            const canvas = await html2canvas(statusElement, {
+              scale: 2,
+              width: statusElement.offsetWidth,
+              height: statusElement.offsetHeight,
+              backgroundColor: null,
+              onclone: (clonedDocument) => {
+                const container = clonedDocument.querySelector(".status-container");
+                container.style.backgroundSize = "cover";
+                container.style.backgroundPosition = "center";
+                container.style.backgroundRepeat = "no-repeat";
                 
-                const isMobile = window.innerWidth <= 768;
-                const isSmallMobile = window.innerWidth <= 480;
-                
-                if (isSmallMobile) {
-                  personImg.style.top = '220px';
-                  personImg.style.left = '8%';
-                  personImg.style.width = '200px';
-                } else if (isMobile) {
-                  personImg.style.top = '240px';
-                  personImg.style.left = '10%';
-                  personImg.style.width = '220px';
-                } else {
-                  personImg.style.top = '210px';
-                  personImg.style.left = '31%';
-                  personImg.style.width = '195px';
-                }
-              }
-              
-              const headerInfo = clonedDocument.querySelector('.header-info');
-              if (headerInfo) {
-                headerInfo.style.position = 'relative';
-                headerInfo.style.transform = 'none';
-                headerInfo.style.top = '0px';
-                headerInfo.style.left = '0px';
-                headerInfo.style.marginTop = '0px';
-                headerInfo.style.marginBottom = '15px';
-                headerInfo.style.zIndex = '5';
-              }
-              
-              const arcText = clonedDocument.querySelector('.arc-text');
-              if (arcText) {
-                arcText.style.position = 'absolute';
-                arcText.style.top = '150px';
-                arcText.style.left = '50%';
-                arcText.style.transform = 'translateX(-50%)';
-                arcText.style.zIndex = '15';
-                arcText.style.pointerEvents = 'none';
-                
-                const svg = arcText.querySelector('svg');
-                if (svg) {
-                  svg.setAttribute('viewBox', '0 0 300 120');
-                  svg.style.width = '300px';
-                  svg.style.height = '120px';
+                const personImg = clonedDocument.getElementById('person-overlay');
+                if (personImg) {
+                  personImg.style.display = 'block';
+                  
+                  const isMobile = window.innerWidth <= 768;
+                  const isSmallMobile = window.innerWidth <= 480;
+                  
+                  if (isSmallMobile) {
+                    personImg.style.top = '220px';
+                    personImg.style.left = '8%';
+                    personImg.style.width = '200px';
+                  } else if (isMobile) {
+                    personImg.style.top = '240px';
+                    personImg.style.left = '10%';
+                    personImg.style.width = '220px';
+                  } else {
+                    personImg.style.top = '210px';
+                    personImg.style.left = '31%';
+                    personImg.style.width = '195px';
+                  }
                 }
                 
-                const shabbatTable = clonedDocument.querySelector('.shabbat-table');
-                if (shabbatTable) {
-                  shabbatTable.style.marginTop = '330px';
+                const headerInfo = clonedDocument.querySelector('.header-info');
+                if (headerInfo) {
+                  headerInfo.style.position = 'relative';
+                  headerInfo.style.transform = 'none';
+                  headerInfo.style.top = '0px';
+                  headerInfo.style.left = '0px';
+                  headerInfo.style.marginTop = '0px';
+                  headerInfo.style.marginBottom = '15px';
+                  headerInfo.style.zIndex = '5';
                 }
                 
-                const footer = clonedDocument.querySelector('.footer-text');
-                if (footer) {
-                  footer.style.marginTop = '0px';
-                  footer.style.marginBottom = '10px';
+                const arcText = clonedDocument.querySelector('.arc-text');
+                if (arcText) {
+                  arcText.style.position = 'absolute';
+                  arcText.style.top = '150px';
+                  arcText.style.left = '50%';
+                  arcText.style.transform = 'translateX(-50%)';
+                  arcText.style.zIndex = '15';
+                  arcText.style.pointerEvents = 'none';
+                  
+                  const svg = arcText.querySelector('svg');
+                  if (svg) {
+                    svg.setAttribute('viewBox', '0 0 300 120');
+                    svg.style.width = '300px';
+                    svg.style.height = '120px';
+                  }
+                  
+                  const shabbatTable = clonedDocument.querySelector('.shabbat-table');
+                  if (shabbatTable) {
+                    shabbatTable.style.marginTop = '330px';
+                  }
+                  
+                  const footer = clonedDocument.querySelector('.footer-text');
+                  if (footer) {
+                    footer.style.marginTop = '0px';
+                    footer.style.marginBottom = '10px';
+                  }
                 }
-              }
-              
-              const clonedTableHeaders = clonedDocument.querySelectorAll('.shabbat-table th');
-              if (clonedTableHeaders.length >= 3) {
-                const torahPortion = document.getElementById('torah-portion')?.textContent || '';
-                const isHoliday = torahPortion && (
-                  torahPortion.includes("ראש השנה") || 
-                  torahPortion.includes("יום כיפור") || 
-                  torahPortion.includes("סוכות") || 
-                  torahPortion.includes("פסח") || 
-                  torahPortion.includes("שבועות") ||
-                  torahPortion.includes("חג")
-                );
                 
-                if (isHoliday) {
-                  clonedTableHeaders[1].textContent = "כניסת החג";
-                  clonedTableHeaders[2].textContent = "יציאת החג";
-                } else {
-                  clonedTableHeaders[1].textContent = "כניסת שבת";
-                  clonedTableHeaders[2].textContent = "יציאת שבת";
+                const clonedTableHeaders = clonedDocument.querySelectorAll('.shabbat-table th');
+                if (clonedTableHeaders.length >= 3) {
+                  const torahPortion = document.getElementById('torah-portion')?.textContent || '';
+                  const isHoliday = torahPortion && (
+                    torahPortion.includes("ראש השנה") || 
+                    torahPortion.includes("יום כיפור") || 
+                    torahPortion.includes("סוכות") || 
+                    torahPortion.includes("פסח") || 
+                    torahPortion.includes("שבועות") ||
+                    torahPortion.includes("חג")
+                  );
+                  
+                  if (isHoliday) {
+                    clonedTableHeaders[1].textContent = "כניסת החג";
+                    clonedTableHeaders[2].textContent = "יציאת החג";
+                  } else {
+                    clonedTableHeaders[1].textContent = "כניסת שבת";
+                    clonedTableHeaders[2].textContent = "יציאת שבת";
+                  }
                 }
-              }
-            },
-          }).then((canvas) => {
-            const dataURL = canvas.toDataURL("image/png");
+              },
+            });
             
-            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-            
-            if (isIOS) {
-              const modal = document.createElement('div');
-              modal.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0,0,0,0.95);
-                z-index: 99999;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                padding: 20px;
-                box-sizing: border-box;
-              `;
+            // המרת canvas ל-blob
+            canvas.toBlob(async (blob) => {
+              if (!blob) {
+                alert('שגיאה ביצירת התמונה');
+                return;
+              }
               
-              const img = document.createElement('img');
-              img.src = dataURL;
-              img.style.cssText = `
-                max-width: 90%;
-                max-height: 70%;
-                object-fit: contain;
-                border: 2px solid white;
-                border-radius: 10px;
-              `;
+              // בדיקה אם יש תמיכה ב-Web Share API
+              if (navigator.share && navigator.canShare) {
+                try {
+                  const file = new File([blob], 'shabbat-status.png', { type: 'image/png' });
+                  const shareData = {
+                    files: [file],
+                    title: 'זמני שבת',
+                    text: 'זמני כניסת ויציאת השבת'
+                  };
+                  
+                  // בדיקה אם אפשר לשתף קבצים
+                  if (navigator.canShare(shareData)) {
+                    await navigator.share(shareData);
+                    return;
+                  }
+                } catch (error) {
+                  // אם השיתוף נכשל או בוטל, ממשיכים להורדה רגילה
+                  console.log('Share cancelled or failed:', error);
+                }
+              }
               
-              const instructions = document.createElement('div');
-              instructions.style.cssText = `
-                color: white;
-                text-align: center;
-                margin-top: 20px;
-                font-size: 18px;
-                font-family: Assistant, sans-serif;
-                direction: rtl;
-                max-width: 90%;
-              `;
-              instructions.innerHTML = `
-                <p style="margin: 10px 0; font-weight: bold;">לשמירת התמונה:</p>
-                <p style="margin: 10px 0;">1. לחץ לחיצה ארוכה על התמונה למעלה</p>
-                <p style="margin: 10px 0;">2. בחר "שמור לתמונות" או "Add to Photos"</p>
-                <p style="margin: 10px 0;">3. התמונה תישמר בגלריה שלך</p>
-              `;
-              
-              const closeBtn = document.createElement('button');
-              closeBtn.textContent = 'סגור ✕';
-              closeBtn.style.cssText = `
-                margin-top: 20px;
-                padding: 15px 30px;
-                font-size: 18px;
-                font-family: Assistant, sans-serif;
-                background-color: #007bff;
-                color: white;
-                border: none;
-                border-radius: 10px;
-                cursor: pointer;
-                font-weight: bold;
-              `;
-              closeBtn.onclick = () => document.body.removeChild(modal);
-              
-              modal.appendChild(img);
-              modal.appendChild(instructions);
-              modal.appendChild(closeBtn);
-              document.body.appendChild(modal);
-              
-            } else {
+              // אם אין תמיכה בשיתוף או שהשיתוף נכשל - הורדה רגילה
+              const dataURL = canvas.toDataURL("image/png");
               const link = document.createElement("a");
               link.href = dataURL;
               link.download = "shabbat-status.png";
@@ -686,11 +647,12 @@
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
-            }
-          }).catch((error) => {
+            }, 'image/png');
+            
+          } catch (error) {
             console.error('Error creating canvas:', error);
             alert('שגיאה ביצירת התמונה: ' + error.message);
-          });
+          }
         }, 1000);
       }
 
