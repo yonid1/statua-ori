@@ -715,36 +715,12 @@
           }).then((canvas) => {
             console.log('Canvas created successfully:', canvas.width, 'x', canvas.height);
             
-            // בדיקה אם זה אייפון/ספארי
-            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-            const isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
-            
-            if (isIOS || isSafari) {
-              // לאייפון/ספארי - הורדה מיידית לגלריה
-              const dataURL = canvas.toDataURL("image/png");
-              
-              // יצירת קישור הורדה זמני
-              const link = document.createElement("a");
-              link.href = dataURL;
-              link.download = "shabbat-status.png";
-              
-              // הוספה לדף וקליק אוטומטי
-              link.style.display = "none";
-              document.body.appendChild(link);
-              link.click();
-              document.body.removeChild(link);
-              
-              // הודעה למשתמש
-              alert('התמונה נשמרה לגלריה! עכשיו תוכל לשתף אותה מיידית מהגלריה.');
-              
-            } else {
-              // למחשב/אנדרואיד - הורדה רגילה
-              const link = document.createElement("a");
-              link.href = canvas.toDataURL("image/png");
-              link.download = "shabbat-status.png";
-              link.click();
-              console.log('Download link clicked');
-            }
+            // הורדה רגילה לכל הדפדפנים
+            const link = document.createElement("a");
+            link.href = canvas.toDataURL("image/png");
+            link.download = "shabbat-status.png";
+            link.click();
+            console.log('Download link clicked');
           }).catch((error) => {
             console.error('Error creating canvas:', error);
             alert('שגיאה ביצירת התמונה: ' + error.message);
