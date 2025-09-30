@@ -46,7 +46,7 @@
         object-fit: cover;
         border: 2px solid #ccc;
         margin-bottom: 10px;
-        transform: translateX(-30px) translateY(-10px); /* ריווח מאוזן */
+        transform: translateX(-30px) translateY(-10px);
       }
       .title {
         font-size: 22px;
@@ -81,7 +81,7 @@
       .shabbat-table {
         width: 100%;
         border-collapse: collapse;
-        margin-top: 330px; /* ריווח נכון אחרי SVG */
+        margin-top: 330px;
         margin-bottom: 10px;
       }
       .shabbat-table th,
@@ -109,19 +109,19 @@
         background-color: #0056b3;
       }
       .footer-text {
-        font-size: 30px; /* גודל גופן גדול */
-        font-weight: bold; /* גופן מודגש */
-        font-family: "Assistant", sans-serif; /* משפחת גופן */
-        color: #ffffff; /* צבע לבן */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* צללית לטקסט */
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Assistant", sans-serif;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
         padding: 10px;
-        background-color: #3e2723; /* צבע רקע כהה */
-        border-radius: 10px; /* פינות עגולות */
-        display: inline-block; /* כדי שיהיה טקסט מוגדר */
+        background-color: #3e2723;
+        border-radius: 10px;
+        display: inline-block;
         text-align: center;
         letter-spacing: 4px;
-        margin-top: 10px; /* העלאת הפוטר */
-        margin-bottom: 20px; /* ריווח תחתון */
+        margin-top: 10px;
+        margin-bottom: 20px;
       }
       #person-overlay {
         position: absolute !important;
@@ -134,7 +134,6 @@
         pointer-events: none !important;
       }
       
-      /* ריספונסיבי למסכים קטנים (טלפונים) */
       @media (max-width: 768px) {
         #person-overlay {
           left: 10% !important;
@@ -143,7 +142,6 @@
         }
       }
       
-      /* ריספונסיבי למסכים קטנים מאוד */
       @media (max-width: 480px) {
         #person-overlay {
           left: 8% !important;
@@ -185,35 +183,21 @@
       </div>
       
       <script>
-        // פונקציה לבדוק אם מדובר במכשיר iOS
         function isIOS() {
           return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
         }
       
-        // הפעלת לוגיקה בהתבסס על סוג המכשיר
         window.onload = function () {
           const textElement = document.querySelector("#arc-text textPath");
           if (isIOS()) {
-            // הופך את הטקסט לאחור עבור iOS
             const originalText = textElement.textContent;
             textElement.textContent = originalText.split("").reverse().join("");
-            // מיישר את כיוון הטקסט
             textElement.setAttribute("direction", "rtl");
           } else {
             textElement.setAttribute("direction", "ltr");
           }
         };
       </script>
-
-      <!-- <img
-        id="profile-picture"
-        src="https://via.placeholder.com/180x260"
-        alt="Profile"
-        class="profile-picture"
-        onclick="document.getElementById('upload').click();"
-      /> -->
-
-      
 
       <input
         type="file"
@@ -263,7 +247,7 @@
     </div>
 
     <div style="display: flex; gap: 10px; justify-content: center; margin: 20px; flex-wrap: wrap;">
-    <button class="download-btn" onclick="downloadImage()">הורד תמונה</button>
+      <button class="download-btn" onclick="downloadImage()">הורד תמונה</button>
       <button class="download-btn" onclick="loadPreviousEvent()" style="background-color: #6c757d;">הקודם</button>
       <button class="download-btn" onclick="loadNextEvent()" style="background-color: #28a745;">הבא</button>
     </div>
@@ -275,359 +259,276 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/0.1.0/dom-to-image.min.js"></script>
     <script>
-      // משתנים גלובליים
       let allEventsData = [];
       let currentEventIndex = 0;
       let eventsByDate = {};
- async function loadShabbatTimes() {
-  try {
-    // טעינת נתונים מקבצים מאוחדים
-    allEventsData = await fetch('times/merged_all_cities.json').then(r => r.json());
-    
-    if (!allEventsData || allEventsData.length === 0) {
-      return;
-    }
 
-    const today = new Date();
-    const todayString = today.toISOString().split("T")[0];
-
-    // מציאת האירוע הקרוב (שבת או חג)
-    const upcomingEvents = allEventsData.filter((entry) => entry.entryDate >= todayString);
-    if (upcomingEvents.length === 0) {
-      return;
-    }
-
-    // קבוצת אירועים לפי תאריך כניסה - הנתונים כבר מאוחדים
-    eventsByDate = {};
-    upcomingEvents.forEach(entry => {
-      if (!eventsByDate[entry.entryDate]) {
-        eventsByDate[entry.entryDate] = [];
-      }
-      eventsByDate[entry.entryDate].push(entry);
-    });
-
-    // מציאת התאריך הקרוב ביותר
-    const sortedDates = Object.keys(eventsByDate).sort();
-    const closestDate = sortedDates[currentEventIndex] || sortedDates[0];
-    const closestEvents = eventsByDate[closestDate];
-
-    // עדכון תאריך עברי ופרשת השבוע
-    const hebrewDateElement = document.getElementById("hebrew-date");
-    const torahPortionElement = document.getElementById("torah-portion");
-
-    // תמיד לוקחים את הפרשה מהערים האחרות (לא ירושלים)
-    const otherCityEvents = closestEvents.filter(entry => entry.city !== "ירושלים");
-    
-    let hebrewDate = "תאריך עברי לא זמין";
-    let torahPortion = "פרשת שבוע לא זמינה";
-    
-    if (otherCityEvents.length > 0) {
-      // לוקחים את הנתונים מהעיר הראשונה (לא ירושלים)
-      const otherCityData = otherCityEvents[0];
-      hebrewDate = otherCityData.hebrewDate || hebrewDate;
-      torahPortion = otherCityData.torahPortion || torahPortion;
-    }
-
-    if (hebrewDateElement) {
-      hebrewDateElement.textContent = hebrewDate || "תאריך עברי לא זמין";
-    }
-
-    if (torahPortionElement) {
-      torahPortionElement.textContent = torahPortion || "פרשת שבוע לא זמינה";
-    }
-
-    // עדכון זמני שבת/חג לערים
-    const cities = [
-      { id: "jerusalem", name: "ירושלים" },
-      { id: "haifa", name: "חיפה" },
-      { id: "tel-aviv", name: "תל אביב" },
-      { id: "beer-sheva", name: "באר שבע" },
-    ];
-
-    // בדיקה אם זה חג או שבת
-    const isHoliday = torahPortion && (
-      torahPortion.includes("ראש השנה") || 
-      torahPortion.includes("יום כיפור") || 
-      torahPortion.includes("סוכות") || 
-      torahPortion.includes("פסח") || 
-      torahPortion.includes("שבועות") ||
-      torahPortion.includes("חג")
-    );
-
-    // עדכון כותרת
-    const titleElement = document.querySelector('.title');
-    if (titleElement) {
-      titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
-    }
-    
-    // עדכון כותרות הטבלה לפי אם זה חג או שבת
-    const tableHeaders = document.querySelectorAll('.shabbat-table th');
-    if (tableHeaders.length >= 3) {
-      if (isHoliday) {
-        tableHeaders[1].textContent = "כניסת החג";
-        tableHeaders[2].textContent = "יציאת החג";
-      } else {
-        tableHeaders[1].textContent = "כניסת שבת";
-        tableHeaders[2].textContent = "יציאת שבת";
-      }
-    }
-
-    // עדכון טקסט תחתית לפי החג
-    const footerElement = document.querySelector('.footer-text');
-    if (footerElement) {
-      let footerText = "שבת שלום ומבורך"; // ברירת מחדל
-      
-      if (torahPortion) {
-        if (torahPortion.includes("ראש השנה")) {
-          footerText = "כתיבה וחתימה טובה";
-        } else if (torahPortion.includes("יום כיפור")) {
-          footerText = "גמר חתימה טובה";
-        } else if (torahPortion.includes("סוכות")) {
-          footerText = "חג שמח";
-        } else if (torahPortion.includes("פסח")) {
-          footerText = "פסח כשר ושמח";
-        } else if (torahPortion.includes("שבועות")) {
-          footerText = "חג שמח";
-        }
-      }
-      
-      footerElement.textContent = footerText;
-    }
-
-    // עדכון תמונת רקע לפי החג
-    const statusContainer = document.querySelector('.status-container');
-    
-    
-    if (statusContainer) {
-      // בדיקה ידנית - אם יש "ראש השנה" בפרשה או אם זה ראש השנה
-      const isRoshHashana = (torahPortion && torahPortion.includes("ראש השנה")) || 
-                           (torahPortion && torahPortion.includes("ראש השנה")) ||
-                           window.location.search.includes("rosh_hashana"); // אפשרות לבדיקה ידנית
-      
-      // בדיקה ליום כיפור
-      const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
-                         window.location.search.includes("yom_kippur"); // אפשרות לבדיקה ידנית
-      
-      if (isRoshHashana) {
-        // לראש השנה - תמונת ראש השנה כרקע ותמונת האיש ללא רקע מעל
-        statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
-        statusContainer.style.backgroundSize = "cover";
-        statusContainer.style.backgroundPosition = "center";
-        statusContainer.style.backgroundRepeat = "no-repeat";
-      } else if (isYomKippur) {
-        // ליום כיפור - תמונת יום כיפור כרקע ותמונת האיש ללא רקע מעל
-        statusContainer.style.backgroundImage = "url('yom-kippur.png')";
-        statusContainer.style.backgroundSize = "cover";
-        statusContainer.style.backgroundPosition = "center";
-        statusContainer.style.backgroundRepeat = "no-repeat";
-        
-        // הוספת רקע אטום לטבלה ולכותרות
-        const shabbatTable = document.querySelector('.shabbat-table');
-        if (shabbatTable) {
-          shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-          shabbatTable.style.borderRadius = '10px';
-          shabbatTable.style.overflow = 'hidden';
-          shabbatTable.style.marginBottom = '20px';
-        }
-        
-        // רקע אטום לכותרת
-        const title = document.querySelector('.title');
-        if (title) {
-          title.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-          title.style.borderRadius = '10px';
-          title.style.padding = '10px';
-        }
-        
-        // רקע אטום לפוטר
-        const footer = document.querySelector('.footer-text');
-        if (footer) {
-          footer.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-          footer.style.borderRadius = '10px';
-          footer.style.padding = '10px';
-          footer.style.marginTop = '10px';
-        }
-        
-        // הוספת תמונת האיש ללא רקע
-        let personImg = document.getElementById('person-overlay');
-        if (!personImg) {
-          personImg = document.createElement('img');
-          personImg.id = 'person-overlay';
-          personImg.src = 'ori_clean.png';
+      async function loadShabbatTimes() {
+        try {
+          allEventsData = await fetch('times/merged_all_cities.json').then(r => r.json());
           
-          // ריספונסיבי - נקבע מיקום לפי גודל המסך
-          const isMobile = window.innerWidth <= 768;
-          const isSmallMobile = window.innerWidth <= 480;
+          if (!allEventsData || allEventsData.length === 0) {
+            return;
+          }
+
+          const today = new Date();
+          const todayString = today.toISOString().split("T")[0];
+
+          const upcomingEvents = allEventsData.filter((entry) => entry.entryDate >= todayString);
+          if (upcomingEvents.length === 0) {
+            return;
+          }
+
+          eventsByDate = {};
+          upcomingEvents.forEach(entry => {
+            if (!eventsByDate[entry.entryDate]) {
+              eventsByDate[entry.entryDate] = [];
+            }
+            eventsByDate[entry.entryDate].push(entry);
+          });
+
+          const sortedDates = Object.keys(eventsByDate).sort();
+          const closestDate = sortedDates[currentEventIndex] || sortedDates[0];
+          const closestEvents = eventsByDate[closestDate];
+
+          const hebrewDateElement = document.getElementById("hebrew-date");
+          const torahPortionElement = document.getElementById("torah-portion");
+
+          const otherCityEvents = closestEvents.filter(entry => entry.city !== "ירושלים");
           
-          // Debug info
-          console.log('Screen width:', window.innerWidth, 'isMobile:', isMobile, 'isSmallMobile:', isSmallMobile);
-          alert('Screen width: ' + window.innerWidth + ', isMobile: ' + isMobile + ', isSmallMobile: ' + isSmallMobile);
+          let hebrewDate = "תאריך עברי לא זמין";
+          let torahPortion = "פרשת שבוע לא זמינה";
           
-          if (isSmallMobile) {
-            personImg.style.cssText = `
-              position: absolute;
-              top: 220px;
-              left: 8%;
-              transform: translateX(-20%);
-              width: 200px;
-              height: auto;
-              z-index: 10;
-            `;
-          } else if (isMobile) {
-            personImg.style.cssText = `
-              position: absolute;
-              top: 240px;
-              left: 10%;
-              transform: translateX(-20%);
-              width: 220px;
-              height: auto;
-              z-index: 10;
-            `;
-          } else {
-            personImg.style.cssText = `
-              position: absolute;
-              top: 210px;
-              left: 31%;
-              transform: translateX(-20%);
-              width: 195px;
-              height: auto;
-              z-index: 10;
-            `;
+          if (otherCityEvents.length > 0) {
+            const otherCityData = otherCityEvents[0];
+            hebrewDate = otherCityData.hebrewDate || hebrewDate;
+            torahPortion = otherCityData.torahPortion || torahPortion;
+          }
+
+          if (hebrewDateElement) {
+            hebrewDateElement.textContent = hebrewDate || "תאריך עברי לא זמין";
+          }
+
+          if (torahPortionElement) {
+            torahPortionElement.textContent = torahPortion || "פרשת שבוע לא זמינה";
+          }
+
+          const cities = [
+            { id: "jerusalem", name: "ירושלים" },
+            { id: "haifa", name: "חיפה" },
+            { id: "tel-aviv", name: "תל אביב" },
+            { id: "beer-sheva", name: "באר שבע" },
+          ];
+
+          const isHoliday = torahPortion && (
+            torahPortion.includes("ראש השנה") || 
+            torahPortion.includes("יום כיפור") || 
+            torahPortion.includes("סוכות") || 
+            torahPortion.includes("פסח") || 
+            torahPortion.includes("שבועות") ||
+            torahPortion.includes("חג")
+          );
+
+          const titleElement = document.querySelector('.title');
+          if (titleElement) {
+            titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
           }
           
-          statusContainer.appendChild(personImg);
-        }
-        personImg.style.display = 'block';
-      } else {
-        // לשבת רגילה וחגים אחרים - תמונת שבת רגילה
-        statusContainer.style.backgroundImage = "url('shabat.webp')";
-        statusContainer.style.backgroundSize = "cover";
-        statusContainer.style.backgroundPosition = "center";
-        statusContainer.style.backgroundRepeat = "no-repeat";
-        
-        // החזרת הרקע הרגיל לטבלה ולכותרות
-        const shabbatTable = document.querySelector('.shabbat-table');
-        if (shabbatTable) {
-          shabbatTable.style.backgroundColor = '';
-          shabbatTable.style.borderRadius = '';
-          shabbatTable.style.overflow = '';
-          shabbatTable.style.marginBottom = '';
-        }
-        
-        const title = document.querySelector('.title');
-        if (title) {
-          title.style.backgroundColor = '';
-          title.style.borderRadius = '';
-          title.style.padding = '';
-        }
-        
-        const footer = document.querySelector('.footer-text');
-        if (footer) {
-          footer.style.backgroundColor = '';
-          footer.style.borderRadius = '';
-          footer.style.padding = '';
-          footer.style.marginTop = '';
-        }
-        
-        // הסתרת תמונת האיש אם היא קיימת
-        const personImg = document.getElementById('person-overlay');
-        if (personImg) {
-          personImg.style.display = 'none';
-        }
-      }
-    }
+          const tableHeaders = document.querySelectorAll('.shabbat-table th');
+          if (tableHeaders.length >= 3) {
+            if (isHoliday) {
+              tableHeaders[1].textContent = "כניסת החג";
+              tableHeaders[2].textContent = "יציאת החג";
+            } else {
+              tableHeaders[1].textContent = "כניסת שבת";
+              tableHeaders[2].textContent = "יציאת שבת";
+            }
+          }
 
-    cities.forEach((city) => {
-      // מציאת האירוע של העיר הזו בתאריך (הנתונים כבר מאוחדים)
-      const cityData = closestEvents.find(event => event.city === city.name);
-      
-      if (cityData) {
+          const footerElement = document.querySelector('.footer-text');
+          if (footerElement) {
+            let footerText = "שבת שלום ומבורך";
+            
+            if (torahPortion) {
+              if (torahPortion.includes("ראש השנה")) {
+                footerText = "כתיבה וחתימה טובה";
+              } else if (torahPortion.includes("יום כיפור")) {
+                footerText = "גמר חתימה טובה";
+              } else if (torahPortion.includes("סוכות")) {
+                footerText = "חג שמח";
+              } else if (torahPortion.includes("פסח")) {
+                footerText = "פסח כשר ושמח";
+              } else if (torahPortion.includes("שבועות")) {
+                footerText = "חג שמח";
+              }
+            }
+            
+            footerElement.textContent = footerText;
+          }
 
-        document.getElementById(`${city.id}-shabbat-enter`).textContent =
-          cityData.candleLighting && cityData.candleLighting !== "לא זמין" ? cityData.candleLighting : "לא זמין";
-        document.getElementById(`${city.id}-shabbat-exit`).textContent =
-          cityData.shabbatExit && cityData.shabbatExit !== "לא זמין" ? cityData.shabbatExit : "לא זמין";
-        document.getElementById(`${city.id}-rabenu-tam`).textContent =
-          cityData.rabenuTam && cityData.rabenuTam !== "לא זמין" ? cityData.rabenuTam : "לא זמין";
-      } else {
-        document.getElementById(`${city.id}-shabbat-enter`).textContent = "לא זמין";
-        document.getElementById(`${city.id}-shabbat-exit`).textContent = "לא זמין";
-        document.getElementById(`${city.id}-rabenu-tam`).textContent = "לא זמין";
-      }
-    });
-  } catch (error) {
-    // שגיאה בטעינת זמני שבת
-  }
-}
+          const statusContainer = document.querySelector('.status-container');
+          
+          if (statusContainer) {
+            const isRoshHashana = (torahPortion && torahPortion.includes("ראש השנה")) || 
+                                 window.location.search.includes("rosh_hashana");
+            
+            const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
+                               window.location.search.includes("yom_kippur");
+            
+            if (isRoshHashana) {
+              statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
+              statusContainer.style.backgroundSize = "cover";
+              statusContainer.style.backgroundPosition = "center";
+              statusContainer.style.backgroundRepeat = "no-repeat";
+            } else if (isYomKippur) {
+              statusContainer.style.backgroundImage = "url('yom-kippur.png')";
+              statusContainer.style.backgroundSize = "cover";
+              statusContainer.style.backgroundPosition = "center";
+              statusContainer.style.backgroundRepeat = "no-repeat";
+              
+              const shabbatTable = document.querySelector('.shabbat-table');
+              if (shabbatTable) {
+                shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+                shabbatTable.style.borderRadius = '10px';
+                shabbatTable.style.overflow = 'hidden';
+                shabbatTable.style.marginBottom = '20px';
+              }
+              
+              const title = document.querySelector('.title');
+              if (title) {
+                title.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+                title.style.borderRadius = '10px';
+                title.style.padding = '10px';
+              }
+              
+              const footer = document.querySelector('.footer-text');
+              if (footer) {
+                footer.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+                footer.style.borderRadius = '10px';
+                footer.style.padding = '10px';
+                footer.style.marginTop = '10px';
+              }
+              
+              let personImg = document.getElementById('person-overlay');
+              if (!personImg) {
+                personImg = document.createElement('img');
+                personImg.id = 'person-overlay';
+                personImg.src = 'ori_clean.png';
+                
+                const isMobile = window.innerWidth <= 768;
+                const isSmallMobile = window.innerWidth <= 480;
+                
+                if (isSmallMobile) {
+                  personImg.style.cssText = `
+                    position: absolute;
+                    top: 220px;
+                    left: 8%;
+                    transform: translateX(-20%);
+                    width: 200px;
+                    height: auto;
+                    z-index: 10;
+                  `;
+                } else if (isMobile) {
+                  personImg.style.cssText = `
+                    position: absolute;
+                    top: 240px;
+                    left: 10%;
+                    transform: translateX(-20%);
+                    width: 220px;
+                    height: auto;
+                    z-index: 10;
+                  `;
+                } else {
+                  personImg.style.cssText = `
+                    position: absolute;
+                    top: 210px;
+                    left: 31%;
+                    transform: translateX(-20%);
+                    width: 195px;
+                    height: auto;
+                    z-index: 10;
+                  `;
+                }
+                
+                statusContainer.appendChild(personImg);
+              }
+              personImg.style.display = 'block';
+            } else {
+              statusContainer.style.backgroundImage = "url('shabat.webp')";
+              statusContainer.style.backgroundSize = "cover";
+              statusContainer.style.backgroundPosition = "center";
+              statusContainer.style.backgroundRepeat = "no-repeat";
+              
+              const shabbatTable = document.querySelector('.shabbat-table');
+              if (shabbatTable) {
+                shabbatTable.style.backgroundColor = '';
+                shabbatTable.style.borderRadius = '';
+                shabbatTable.style.overflow = '';
+                shabbatTable.style.marginBottom = '';
+              }
+              
+              const title = document.querySelector('.title');
+              if (title) {
+                title.style.backgroundColor = '';
+                title.style.borderRadius = '';
+                title.style.padding = '';
+              }
+              
+              const footer = document.querySelector('.footer-text');
+              if (footer) {
+                footer.style.backgroundColor = '';
+                footer.style.borderRadius = '';
+                footer.style.padding = '';
+                footer.style.marginTop = '';
+              }
+              
+              const personImg = document.getElementById('person-overlay');
+              if (personImg) {
+                personImg.style.display = 'none';
+              }
+            }
+          }
 
-      
-      // פונקציה להצגת התמונה במודל
-      function showImageModal(dataURL) {
-        const imageDiv = document.createElement('div');
-        imageDiv.style.cssText = `
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(0,0,0,0.8);
-          z-index: 9999;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          padding: 20px;
-          box-sizing: border-box;
-        `;
-        
-        const img = document.createElement('img');
-        img.src = dataURL;
-        img.style.cssText = 'max-width: 100%; max-height: 80%; object-fit: contain;';
-        
-        const text = document.createElement('p');
-        text.textContent = 'לשמירה: לחץ לחיצה ארוכה על התמונה ובחר "שמור לתמונות"';
-        text.style.cssText = 'color: white; text-align: center; margin-top: 20px; font-size: 16px;';
-        
-        const closeBtn = document.createElement('button');
-        closeBtn.textContent = 'סגור';
-        closeBtn.style.cssText = 'margin-top: 20px; padding: 10px 20px; font-size: 16px;';
-        closeBtn.onclick = () => document.body.removeChild(imageDiv);
-        
-        imageDiv.appendChild(img);
-        imageDiv.appendChild(text);
-        imageDiv.appendChild(closeBtn);
-        document.body.appendChild(imageDiv);
-        
-        alert('התמונה מוצגת על המסך. לחץ לחיצה ארוכה על התמונה כדי לשמור');
+          cities.forEach((city) => {
+            const cityData = closestEvents.find(event => event.city === city.name);
+            
+            if (cityData) {
+              document.getElementById(`${city.id}-shabbat-enter`).textContent =
+                cityData.candleLighting && cityData.candleLighting !== "לא זמין" ? cityData.candleLighting : "לא זמין";
+              document.getElementById(`${city.id}-shabbat-exit`).textContent =
+                cityData.shabbatExit && cityData.shabbatExit !== "לא זמין" ? cityData.shabbatExit : "לא זמין";
+              document.getElementById(`${city.id}-rabenu-tam`).textContent =
+                cityData.rabenuTam && cityData.rabenuTam !== "לא זמין" ? cityData.rabenuTam : "לא זמין";
+            } else {
+              document.getElementById(`${city.id}-shabbat-enter`).textContent = "לא זמין";
+              document.getElementById(`${city.id}-shabbat-exit`).textContent = "לא זמין";
+              document.getElementById(`${city.id}-rabenu-tam`).textContent = "לא זמין";
+            }
+          });
+        } catch (error) {
+          console.error('Error loading shabbat times:', error);
+        }
       }
 
       function downloadImage() {
         const statusElement = document.getElementById("status");
         
-        // Debug info
-        console.log('Download started - Screen width:', window.innerWidth);
-        console.log('Status element dimensions:', statusElement.offsetWidth, 'x', statusElement.offsetHeight);
-        alert('Download started - Screen width: ' + window.innerWidth + ', Dimensions: ' + statusElement.offsetWidth + 'x' + statusElement.offsetHeight);
-        
-        // המתן קצת כדי שהתמונות יטענו
         setTimeout(() => {
           html2canvas(statusElement, {
-            scale: 2, // שיפור האיכות
+            scale: 2,
             width: statusElement.offsetWidth,
             height: statusElement.offsetHeight,
-            backgroundColor: null, // שימוש בצבע רקע שקוף אם אין צבע רקע
+            backgroundColor: null,
             onclone: (clonedDocument) => {
               const container = clonedDocument.querySelector(".status-container");
-              // שמירה על הגדרות הרקע המקוריות
-              container.style.backgroundSize = "cover"; // מתפרס על כל הרקע
+              container.style.backgroundSize = "cover";
               container.style.backgroundPosition = "center";
               container.style.backgroundRepeat = "no-repeat";
               
-              // וידוא שתמונת האיש מוצגת עם מיקום ריספונסיבי
               const personImg = clonedDocument.getElementById('person-overlay');
               if (personImg) {
                 personImg.style.display = 'block';
                 
-                // ריספונסיבי בשמירה - נקבע מיקום לפי גודל המסך
                 const isMobile = window.innerWidth <= 768;
                 const isSmallMobile = window.innerWidth <= 480;
                 
@@ -646,7 +547,6 @@
                 }
               }
               
-              // תיקון טקסט רגיל - שמירה על המיקום המקורי
               const headerInfo = clonedDocument.querySelector('.header-info');
               if (headerInfo) {
                 headerInfo.style.position = 'relative';
@@ -658,7 +558,6 @@
                 headerInfo.style.zIndex = '5';
               }
               
-              // תיקון SVG - מיקום מוחלט
               const arcText = clonedDocument.querySelector('.arc-text');
               if (arcText) {
                 arcText.style.position = 'absolute';
@@ -668,7 +567,6 @@
                 arcText.style.zIndex = '15';
                 arcText.style.pointerEvents = 'none';
                 
-                // תיקון SVG - וידוא שהטקסט נראה
                 const svg = arcText.querySelector('svg');
                 if (svg) {
                   svg.setAttribute('viewBox', '0 0 300 120');
@@ -676,7 +574,6 @@
                   svg.style.height = '120px';
                 }
                 
-                // העלאת הטבלה והפוטר בשמירה
                 const shabbatTable = clonedDocument.querySelector('.shabbat-table');
                 if (shabbatTable) {
                   shabbatTable.style.marginTop = '330px';
@@ -689,11 +586,9 @@
                 }
               }
               
-              // עדכון כותרות הטבלה בשמירה לפי אם זה חג או שבת
               const clonedTableHeaders = clonedDocument.querySelectorAll('.shabbat-table th');
               if (clonedTableHeaders.length >= 3) {
-                // נשתמש באותה לוגיקה של isHoliday
-                const torahPortion = document.querySelector('.torah-portion')?.textContent || '';
+                const torahPortion = document.getElementById('torah-portion')?.textContent || '';
                 const isHoliday = torahPortion && (
                   torahPortion.includes("ראש השנה") || 
                   torahPortion.includes("יום כיפור") || 
@@ -713,58 +608,112 @@
               }
             },
           }).then((canvas) => {
-            console.log('Canvas created successfully:', canvas.width, 'x', canvas.height);
-            alert('Canvas created: ' + canvas.width + 'x' + canvas.height);
-            
-            // הורדה רגילה לכל הדפדפנים
             const dataURL = canvas.toDataURL("image/png");
-            console.log('Data URL created, length:', dataURL.length);
             
-            const link = document.createElement("a");
-            link.href = dataURL;
-            link.download = "shabbat-status.png";
-            link.style.display = "none";
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            console.log('Download link clicked');
-            alert('Download attempted');
+            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+            
+            if (isIOS) {
+              const modal = document.createElement('div');
+              modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.95);
+                z-index: 99999;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                box-sizing: border-box;
+              `;
+              
+              const img = document.createElement('img');
+              img.src = dataURL;
+              img.style.cssText = `
+                max-width: 90%;
+                max-height: 70%;
+                object-fit: contain;
+                border: 2px solid white;
+                border-radius: 10px;
+              `;
+              
+              const instructions = document.createElement('div');
+              instructions.style.cssText = `
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+                font-size: 18px;
+                font-family: Assistant, sans-serif;
+                direction: rtl;
+                max-width: 90%;
+              `;
+              instructions.innerHTML = `
+                <p style="margin: 10px 0; font-weight: bold;">לשמירת התמונה:</p>
+                <p style="margin: 10px 0;">1. לחץ לחיצה ארוכה על התמונה למעלה</p>
+                <p style="margin: 10px 0;">2. בחר "שמור לתמונות" או "Add to Photos"</p>
+                <p style="margin: 10px 0;">3. התמונה תישמר בגלריה שלך</p>
+              `;
+              
+              const closeBtn = document.createElement('button');
+              closeBtn.textContent = 'סגור ✕';
+              closeBtn.style.cssText = `
+                margin-top: 20px;
+                padding: 15px 30px;
+                font-size: 18px;
+                font-family: Assistant, sans-serif;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-weight: bold;
+              `;
+              closeBtn.onclick = () => document.body.removeChild(modal);
+              
+              modal.appendChild(img);
+              modal.appendChild(instructions);
+              modal.appendChild(closeBtn);
+              document.body.appendChild(modal);
+              
+            } else {
+              const link = document.createElement("a");
+              link.href = dataURL;
+              link.download = "shabbat-status.png";
+              link.style.display = "none";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }
           }).catch((error) => {
             console.error('Error creating canvas:', error);
             alert('שגיאה ביצירת התמונה: ' + error.message);
           });
-        }, 1000); // המתן שנייה אחת
+        }, 1000);
       }
 
-
-
-
-
-      // פונקציה למעבר לאירוע הקודם
       function loadPreviousEvent() {
         const sortedDates = Object.keys(eventsByDate).sort();
         currentEventIndex = currentEventIndex > 0 ? currentEventIndex - 1 : sortedDates.length - 1;
         loadShabbatTimes().then(() => {
-          // עדכון הרקע אחרי טעינת הנתונים
           updateBackground();
         }).catch(error => {
-          // שגיאה בטעינת אירוע קודם
+          console.error('Error loading previous event:', error);
         });
       }
 
-      // פונקציה למעבר לאירוע הבא
       function loadNextEvent() {
         const sortedDates = Object.keys(eventsByDate).sort();
         currentEventIndex = (currentEventIndex + 1) % sortedDates.length;
         loadShabbatTimes().then(() => {
-          // עדכון הרקע אחרי טעינת הנתונים
           updateBackground();
         }).catch(error => {
-          // שגיאה בטעינת אירוע הבא
+          console.error('Error loading next event:', error);
         });
       }
 
-      // פונקציה לעדכון הרקע
       function updateBackground() {
         const torahPortionElement = document.getElementById("torah-portion");
         const torahPortion = torahPortionElement ? torahPortionElement.textContent : "";
@@ -772,29 +721,23 @@
         const statusContainer = document.querySelector('.status-container');
         
         if (statusContainer) {
-          // בדיקה ידנית - אם יש "ראש השנה" בפרשה או אם זה ראש השנה
           const isRoshHashana = (torahPortion && torahPortion.includes("ראש השנה")) || 
-                               (torahPortion && torahPortion.includes("ראש השנה")) ||
-                               window.location.search.includes("rosh_hashana"); // אפשרות לבדיקה ידנית
+                               window.location.search.includes("rosh_hashana");
           
-          // בדיקה ליום כיפור
           const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
-                             window.location.search.includes("yom_kippur"); // אפשרות לבדיקה ידנית
+                             window.location.search.includes("yom_kippur");
           
           if (isRoshHashana) {
-            // לראש השנה - תמונת ראש השנה כרקע ותמונת האיש ללא רקע מעל
             statusContainer.style.backgroundImage = "url('rosh-hashna1.jpeg')";
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
           } else if (isYomKippur) {
-            // ליום כיפור - תמונת יום כיפור כרקע ותמונת האיש ללא רקע מעל
             statusContainer.style.backgroundImage = "url('yom-kippur.png')";
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
             
-            // הוספת רקע אטום לטבלה ולכותרות
             const shabbatTable = document.querySelector('.shabbat-table');
             if (shabbatTable) {
               shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
@@ -818,14 +761,12 @@
               footer.style.marginTop = '10px';
             }
             
-            // הוספת תמונת האיש ללא רקע
             let personImg = document.getElementById('person-overlay');
             if (!personImg) {
               personImg = document.createElement('img');
               personImg.id = 'person-overlay';
               personImg.src = 'ori_clean.png';
               
-              // ריספונסיבי - נקבע מיקום לפי גודל המסך
               const isMobile = window.innerWidth <= 768;
               const isSmallMobile = window.innerWidth <= 480;
               
@@ -868,13 +809,11 @@
             }
             personImg.style.display = 'block';
           } else {
-            // לשבת רגילה וחגים אחרים - תמונת שבת רגילה
             statusContainer.style.backgroundImage = "url('shabat.webp')";
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
             
-            // החזרת הרקע הרגיל לטבלה ולכותרות
             const shabbatTable = document.querySelector('.shabbat-table');
             if (shabbatTable) {
               shabbatTable.style.backgroundColor = '';
@@ -898,14 +837,12 @@
               footer.style.marginTop = '';
             }
             
-            // הוספת תמונת האיש ללא רקע (תמיד)
             let personImg = document.getElementById('person-overlay');
             if (!personImg) {
               personImg = document.createElement('img');
               personImg.id = 'person-overlay';
               personImg.src = 'ori_clean.png';
               
-              // ריספונסיבי - נקבע מיקום לפי גודל המסך
               const isMobile = window.innerWidth <= 768;
               const isSmallMobile = window.innerWidth <= 480;
               
@@ -952,10 +889,9 @@
       }
 
       loadShabbatTimes().catch(error => {
-        // שגיאה בטעינת זמני שבת
+        console.error('Error loading shabbat times:', error);
       });
       
-      // ריספונסיבי - עדכון מיקום התמונה כשמשנים גודל מסך
       window.addEventListener('resize', function() {
         const personImg = document.getElementById('person-overlay');
         if (personImg) {
