@@ -460,6 +460,7 @@
           
           // Debug info
           console.log('Screen width:', window.innerWidth, 'isMobile:', isMobile, 'isSmallMobile:', isSmallMobile);
+          alert('Screen width: ' + window.innerWidth + ', isMobile: ' + isMobile + ', isSmallMobile: ' + isSmallMobile);
           
           if (isSmallMobile) {
             personImg.style.cssText = `
@@ -565,6 +566,7 @@
         // Debug info
         console.log('Download started - Screen width:', window.innerWidth);
         console.log('Status element dimensions:', statusElement.offsetWidth, 'x', statusElement.offsetHeight);
+        alert('Download started - Screen width: ' + window.innerWidth + ', Dimensions: ' + statusElement.offsetWidth + 'x' + statusElement.offsetHeight);
         
         // המתן קצת כדי שהתמונות יטענו
         setTimeout(() => {
