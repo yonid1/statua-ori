@@ -714,13 +714,21 @@
             },
           }).then((canvas) => {
             console.log('Canvas created successfully:', canvas.width, 'x', canvas.height);
+            alert('Canvas created: ' + canvas.width + 'x' + canvas.height);
             
             // הורדה רגילה לכל הדפדפנים
+            const dataURL = canvas.toDataURL("image/png");
+            console.log('Data URL created, length:', dataURL.length);
+            
             const link = document.createElement("a");
-            link.href = canvas.toDataURL("image/png");
+            link.href = dataURL;
             link.download = "shabbat-status.png";
+            link.style.display = "none";
+            document.body.appendChild(link);
             link.click();
+            document.body.removeChild(link);
             console.log('Download link clicked');
+            alert('Download attempted');
           }).catch((error) => {
             console.error('Error creating canvas:', error);
             alert('שגיאה ביצירת התמונה: ' + error.message);
