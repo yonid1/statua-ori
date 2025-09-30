@@ -560,6 +560,46 @@
 }
 
       
+      // פונקציה להצגת התמונה במודל
+      function showImageModal(dataURL) {
+        const imageDiv = document.createElement('div');
+        imageDiv.style.cssText = `
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,0.8);
+          z-index: 9999;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+          box-sizing: border-box;
+        `;
+        
+        const img = document.createElement('img');
+        img.src = dataURL;
+        img.style.cssText = 'max-width: 100%; max-height: 80%; object-fit: contain;';
+        
+        const text = document.createElement('p');
+        text.textContent = 'לשמירה: לחץ לחיצה ארוכה על התמונה ובחר "שמור לתמונות"';
+        text.style.cssText = 'color: white; text-align: center; margin-top: 20px; font-size: 16px;';
+        
+        const closeBtn = document.createElement('button');
+        closeBtn.textContent = 'סגור';
+        closeBtn.style.cssText = 'margin-top: 20px; padding: 10px 20px; font-size: 16px;';
+        closeBtn.onclick = () => document.body.removeChild(imageDiv);
+        
+        imageDiv.appendChild(img);
+        imageDiv.appendChild(text);
+        imageDiv.appendChild(closeBtn);
+        document.body.appendChild(imageDiv);
+        
+        alert('התמונה מוצגת על המסך. לחץ לחיצה ארוכה על התמונה כדי לשמור');
+      }
+
       function downloadImage() {
         const statusElement = document.getElementById("status");
         
@@ -680,46 +720,38 @@
             const isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
             
             if (isIOS || isSafari) {
-              // לאייפון/ספארי - הצגת התמונה בדף הנוכחי
+              // לאייפון/ספארי - ניסיון שיתוף מיידי
               const dataURL = canvas.toDataURL("image/png");
               
-              // יצירת div עם התמונה
-              const imageDiv = document.createElement('div');
-              imageDiv.style.cssText = `
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0,0,0,0.8);
-                z-index: 9999;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                padding: 20px;
-                box-sizing: border-box;
-              `;
-              
-              const img = document.createElement('img');
-              img.src = dataURL;
-              img.style.cssText = 'max-width: 100%; max-height: 80%; object-fit: contain;';
-              
-              const text = document.createElement('p');
-              text.textContent = 'לשמירה: לחץ לחיצה ארוכה על התמונה ובחר "שמור לתמונות"';
-              text.style.cssText = 'color: white; text-align: center; margin-top: 20px; font-size: 16px;';
-              
-              const closeBtn = document.createElement('button');
-              closeBtn.textContent = 'סגור';
-              closeBtn.style.cssText = 'margin-top: 20px; padding: 10px 20px; font-size: 16px;';
-              closeBtn.onclick = () => document.body.removeChild(imageDiv);
-              
-              imageDiv.appendChild(img);
-              imageDiv.appendChild(text);
-              imageDiv.appendChild(closeBtn);
-              document.body.appendChild(imageDiv);
-              
-              alert('התמונה מוצגת על המסך. לחץ לחיצה ארוכה על התמונה כדי לשמור');
+              // המרה ל-Blob לשיתוף
+              fetch(dataURL)
+                .then(res => res.blob())
+                .then(blob => {
+                  const file = new File([blob], "shabbat-status.png", { type: "image/png" });
+                  
+                  // בדיקה אם Web Share API נתמך
+                  if (navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+                    navigator.share({
+                      title: 'זמני שבת',
+                      text: 'זמני כניסת ויציאת השבת',
+                      files: [file]
+                    }).then(() => {
+                      console.log('שיתוף הצליח');
+                    }).catch((error) => {
+                      console.log('שיתוף נכשל:', error);
+                      // fallback - הצגת התמונה
+                      showImageModal(dataURL);
+                    });
+                  } else {
+                    // fallback - הצגת התמונה
+                    showImageModal(dataURL);
+                  }
+                })
+                .catch((error) => {
+                  console.log('שגיאה בהמרה:', error);
+                  // fallback - הצגת התמונה
+                  showImageModal(dataURL);
+                });
             } else {
               // למחשב/אנדרואיד - הורדה רגילה
               const link = document.createElement("a");
