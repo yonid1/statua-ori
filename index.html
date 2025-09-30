@@ -359,6 +359,18 @@
     if (titleElement) {
       titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
     }
+    
+    // עדכון כותרות הטבלה לפי אם זה חג או שבת
+    const tableHeaders = document.querySelectorAll('.shabbat-table th');
+    if (tableHeaders.length >= 3) {
+      if (isHoliday) {
+        tableHeaders[1].textContent = "כניסת החג";
+        tableHeaders[2].textContent = "יציאת החג";
+      } else {
+        tableHeaders[1].textContent = "כניסת שבת";
+        tableHeaders[2].textContent = "יציאת שבת";
+      }
+    }
 
     // עדכון טקסט תחתית לפי החג
     const footerElement = document.querySelector('.footer-text');
@@ -392,9 +404,19 @@
                            (torahPortion && torahPortion.includes("ראש השנה")) ||
                            window.location.search.includes("rosh_hashana"); // אפשרות לבדיקה ידנית
       
+      // בדיקה ליום כיפור
+      const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
+                         window.location.search.includes("yom_kippur"); // אפשרות לבדיקה ידנית
+      
       if (isRoshHashana) {
         // לראש השנה - תמונת ראש השנה כרקע ותמונת האיש ללא רקע מעל
         statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
+        statusContainer.style.backgroundSize = "cover";
+        statusContainer.style.backgroundPosition = "center";
+        statusContainer.style.backgroundRepeat = "no-repeat";
+      } else if (isYomKippur) {
+        // ליום כיפור - תמונת יום כיפור כרקע ותמונת האיש ללא רקע מעל
+        statusContainer.style.backgroundImage = "url('yom-kippur.png')";
         statusContainer.style.backgroundSize = "cover";
         statusContainer.style.backgroundPosition = "center";
         statusContainer.style.backgroundRepeat = "no-repeat";
@@ -617,6 +639,29 @@
                   footer.style.marginBottom = '10px';
                 }
               }
+              
+              // עדכון כותרות הטבלה בשמירה לפי אם זה חג או שבת
+              const clonedTableHeaders = clonedDocument.querySelectorAll('.shabbat-table th');
+              if (clonedTableHeaders.length >= 3) {
+                // נשתמש באותה לוגיקה של isHoliday
+                const torahPortion = document.querySelector('.torah-portion')?.textContent || '';
+                const isHoliday = torahPortion && (
+                  torahPortion.includes("ראש השנה") || 
+                  torahPortion.includes("יום כיפור") || 
+                  torahPortion.includes("סוכות") || 
+                  torahPortion.includes("פסח") || 
+                  torahPortion.includes("שבועות") ||
+                  torahPortion.includes("חג")
+                );
+                
+                if (isHoliday) {
+                  clonedTableHeaders[1].textContent = "כניסת החג";
+                  clonedTableHeaders[2].textContent = "יציאת החג";
+                } else {
+                  clonedTableHeaders[1].textContent = "כניסת שבת";
+                  clonedTableHeaders[2].textContent = "יציאת שבת";
+                }
+              }
             },
           }).then((canvas) => {
             const link = document.createElement("a");
@@ -670,9 +715,19 @@
                                (torahPortion && torahPortion.includes("ראש השנה")) ||
                                window.location.search.includes("rosh_hashana"); // אפשרות לבדיקה ידנית
           
+          // בדיקה ליום כיפור
+          const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
+                             window.location.search.includes("yom_kippur"); // אפשרות לבדיקה ידנית
+          
           if (isRoshHashana) {
             // לראש השנה - תמונת ראש השנה כרקע ותמונת האיש ללא רקע מעל
             statusContainer.style.backgroundImage = "url('rosh-hashna1.jpeg')";
+            statusContainer.style.backgroundSize = "cover";
+            statusContainer.style.backgroundPosition = "center";
+            statusContainer.style.backgroundRepeat = "no-repeat";
+          } else if (isYomKippur) {
+            // ליום כיפור - תמונת יום כיפור כרקע ותמונת האיש ללא רקע מעל
+            statusContainer.style.backgroundImage = "url('yom-kippur.png')";
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
