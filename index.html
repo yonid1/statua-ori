@@ -458,6 +458,9 @@
           const isMobile = window.innerWidth <= 768;
           const isSmallMobile = window.innerWidth <= 480;
           
+          // Debug info
+          console.log('Screen width:', window.innerWidth, 'isMobile:', isMobile, 'isSmallMobile:', isSmallMobile);
+          
           if (isSmallMobile) {
             personImg.style.cssText = `
               position: absolute;
@@ -558,6 +561,10 @@
       
       function downloadImage() {
         const statusElement = document.getElementById("status");
+        
+        // Debug info
+        console.log('Download started - Screen width:', window.innerWidth);
+        console.log('Status element dimensions:', statusElement.offsetWidth, 'x', statusElement.offsetHeight);
         
         // המתן קצת כדי שהתמונות יטענו
         setTimeout(() => {
@@ -669,6 +676,7 @@
             link.download = "shabbat-status.png";
             link.click();
           }).catch((error) => {
+            console.error('Error creating canvas:', error);
             alert('שגיאה ביצירת התמונה: ' + error.message);
           });
         }, 1000); // המתן שנייה אחת
