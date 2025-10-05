@@ -104,6 +104,8 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        position: relative;
+        z-index: 100;
       }
       .download-btn:hover {
         background-color: #0056b3;
@@ -125,7 +127,7 @@
       }
       #person-overlay {
         position: absolute !important;
-        top: 40px !important;
+        top: 150px !important;
         left: 31% !important;
         transform: translateX(-20%) !important;
         width: 195px !important;
@@ -138,7 +140,7 @@
         #person-overlay {
           left: 10% !important;
           width: 220px !important;
-          top: 70px !important;
+          top: 180px !important;
         }
       }
       
@@ -146,7 +148,7 @@
         #person-overlay {
           left: 8% !important;
           width: 200px !important;
-          top: 50px !important;
+          top: 160px !important;
         }
       }
     </style>
@@ -548,15 +550,15 @@
                   const isSmallMobile = window.innerWidth <= 480;
                   
                   if (isSmallMobile) {
-                    personImg.style.top = '50px';
+                    personImg.style.top = '160px';
                     personImg.style.left = '8%';
                     personImg.style.width = '200px';
                   } else if (isMobile) {
-                    personImg.style.top = '70px';
+                    personImg.style.top = '180px';
                     personImg.style.left = '10%';
                     personImg.style.width = '220px';
                   } else {
-                    personImg.style.top = '40px';
+                    personImg.style.top = '150px';
                     personImg.style.left = '31%';
                     personImg.style.width = '195px';
                   }
