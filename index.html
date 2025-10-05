@@ -429,7 +429,7 @@
                 if (isSmallMobile) {
                   personImg.style.cssText = `
                     position: absolute;
-                    top: 220px;
+                    top: 100px;
                     left: 8%;
                     transform: translateX(-20%);
                     width: 200px;
@@ -439,7 +439,7 @@
                 } else if (isMobile) {
                   personImg.style.cssText = `
                     position: absolute;
-                    top: 240px;
+                    top: 120px;
                     left: 10%;
                     transform: translateX(-20%);
                     width: 220px;
@@ -449,7 +449,7 @@
                 } else {
                   personImg.style.cssText = `
                     position: absolute;
-                    top: 210px;
+                    top: 90px;
                     left: 31%;
                     transform: translateX(-20%);
                     width: 195px;
@@ -883,15 +883,15 @@
           const isSmallMobile = window.innerWidth <= 480;
           
           if (isSmallMobile) {
-            personImg.style.top = '220px';
+            personImg.style.top = '100px';
             personImg.style.left = '8%';
             personImg.style.width = '200px';
           } else if (isMobile) {
-            personImg.style.top = '240px';
+            personImg.style.top = '120px';
             personImg.style.left = '10%';
             personImg.style.width = '220px';
           } else {
-            personImg.style.top = '210px';
+            personImg.style.top = '90px';
             personImg.style.left = '31%';
             personImg.style.width = '195px';
           }
