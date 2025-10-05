@@ -375,6 +375,9 @@
             const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
                                window.location.search.includes("yom_kippur");
             
+            const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
+                           window.location.search.includes("sukot");
+            
             if (isRoshHashana) {
               statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
               statusContainer.style.backgroundSize = "cover";
@@ -382,6 +385,11 @@
               statusContainer.style.backgroundRepeat = "no-repeat";
             } else if (isYomKippur) {
               statusContainer.style.backgroundImage = "url('yom-kippur.jpeg')";
+              statusContainer.style.backgroundSize = "cover";
+              statusContainer.style.backgroundPosition = "center";
+              statusContainer.style.backgroundRepeat = "no-repeat";
+            } else if (isSukot) {
+              statusContainer.style.backgroundImage = "url('sukot.jpeg')";
               statusContainer.style.backgroundSize = "cover";
               statusContainer.style.backgroundPosition = "center";
               statusContainer.style.backgroundRepeat = "no-repeat";
@@ -689,6 +697,9 @@
           const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
                              window.location.search.includes("yom_kippur");
           
+          const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
+                         window.location.search.includes("sukot");
+          
           if (isRoshHashana) {
             statusContainer.style.backgroundImage = "url('rosh-hashna1.jpeg')";
             statusContainer.style.backgroundSize = "cover";
@@ -696,6 +707,11 @@
             statusContainer.style.backgroundRepeat = "no-repeat";
           } else if (isYomKippur) {
             statusContainer.style.backgroundImage = "url('yom-kippur.jpeg')";
+            statusContainer.style.backgroundSize = "cover";
+            statusContainer.style.backgroundPosition = "center";
+            statusContainer.style.backgroundRepeat = "no-repeat";
+          } else if (isSukot) {
+            statusContainer.style.backgroundImage = "url('sukot.jpeg')";
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
