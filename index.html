@@ -127,8 +127,8 @@
       }
       #person-overlay {
         position: absolute !important;
-        top: 150px !important;
-        left: 31% !important;
+        top: 180px !important;
+        left: 35% !important;
         transform: translateX(-20%) !important;
         width: 195px !important;
         height: auto !important;
@@ -138,17 +138,17 @@
       
       @media (max-width: 768px) {
         #person-overlay {
-          left: 10% !important;
+          left: 15% !important;
           width: 220px !important;
-          top: 180px !important;
+          top: 210px !important;
         }
       }
       
       @media (max-width: 480px) {
         #person-overlay {
-          left: 8% !important;
+          left: 12% !important;
           width: 200px !important;
-          top: 160px !important;
+          top: 190px !important;
         }
       }
     </style>
@@ -265,77 +265,77 @@
       let currentEventIndex = 0;
       let eventsByDate = {};
 
-      async function loadShabbatTimes() {
-        try {
-          allEventsData = await fetch('times/merged_all_cities.json').then(r => r.json());
-          
-          if (!allEventsData || allEventsData.length === 0) {
-            return;
-          }
+ async function loadShabbatTimes() {
+  try {
+    allEventsData = await fetch('times/merged_all_cities.json').then(r => r.json());
+    
+    if (!allEventsData || allEventsData.length === 0) {
+      return;
+    }
 
-          const today = new Date();
-          const todayString = today.toISOString().split("T")[0];
+    const today = new Date();
+    const todayString = today.toISOString().split("T")[0];
 
-          const upcomingEvents = allEventsData.filter((entry) => entry.entryDate >= todayString);
-          if (upcomingEvents.length === 0) {
-            return;
-          }
+    const upcomingEvents = allEventsData.filter((entry) => entry.entryDate >= todayString);
+    if (upcomingEvents.length === 0) {
+      return;
+    }
 
-          eventsByDate = {};
-          upcomingEvents.forEach(entry => {
-            if (!eventsByDate[entry.entryDate]) {
-              eventsByDate[entry.entryDate] = [];
-            }
-            eventsByDate[entry.entryDate].push(entry);
-          });
+    eventsByDate = {};
+    upcomingEvents.forEach(entry => {
+      if (!eventsByDate[entry.entryDate]) {
+        eventsByDate[entry.entryDate] = [];
+      }
+      eventsByDate[entry.entryDate].push(entry);
+    });
 
-          const sortedDates = Object.keys(eventsByDate).sort();
-          const closestDate = sortedDates[currentEventIndex] || sortedDates[0];
-          const closestEvents = eventsByDate[closestDate];
+    const sortedDates = Object.keys(eventsByDate).sort();
+    const closestDate = sortedDates[currentEventIndex] || sortedDates[0];
+    const closestEvents = eventsByDate[closestDate];
+    
+    const hebrewDateElement = document.getElementById("hebrew-date");
+    const torahPortionElement = document.getElementById("torah-portion");
 
-          const hebrewDateElement = document.getElementById("hebrew-date");
-          const torahPortionElement = document.getElementById("torah-portion");
+    const otherCityEvents = closestEvents.filter(entry => entry.city !== "ירושלים");
+    
+    let hebrewDate = "תאריך עברי לא זמין";
+    let torahPortion = "פרשת שבוע לא זמינה";
+    
+    if (otherCityEvents.length > 0) {
+      const otherCityData = otherCityEvents[0];
+      hebrewDate = otherCityData.hebrewDate || hebrewDate;
+      torahPortion = otherCityData.torahPortion || torahPortion;
+    }
 
-          const otherCityEvents = closestEvents.filter(entry => entry.city !== "ירושלים");
-          
-          let hebrewDate = "תאריך עברי לא זמין";
-          let torahPortion = "פרשת שבוע לא זמינה";
-          
-          if (otherCityEvents.length > 0) {
-            const otherCityData = otherCityEvents[0];
-            hebrewDate = otherCityData.hebrewDate || hebrewDate;
-            torahPortion = otherCityData.torahPortion || torahPortion;
-          }
+    if (hebrewDateElement) {
+      hebrewDateElement.textContent = hebrewDate || "תאריך עברי לא זמין";
+    }
 
-          if (hebrewDateElement) {
-            hebrewDateElement.textContent = hebrewDate || "תאריך עברי לא זמין";
-          }
+    if (torahPortionElement) {
+      torahPortionElement.textContent = torahPortion || "פרשת שבוע לא זמינה";
+    }
 
-          if (torahPortionElement) {
-            torahPortionElement.textContent = torahPortion || "פרשת שבוע לא זמינה";
-          }
+    const cities = [
+      { id: "jerusalem", name: "ירושלים" },
+      { id: "haifa", name: "חיפה" },
+      { id: "tel-aviv", name: "תל אביב" },
+      { id: "beer-sheva", name: "באר שבע" },
+    ];
 
-          const cities = [
-            { id: "jerusalem", name: "ירושלים" },
-            { id: "haifa", name: "חיפה" },
-            { id: "tel-aviv", name: "תל אביב" },
-            { id: "beer-sheva", name: "באר שבע" },
-          ];
+    const isHoliday = torahPortion && (
+      torahPortion.includes("ראש השנה") || 
+      torahPortion.includes("יום כיפור") || 
+      torahPortion.includes("סוכות") || 
+      torahPortion.includes("פסח") || 
+      torahPortion.includes("שבועות") ||
+      torahPortion.includes("חג")
+    );
 
-          const isHoliday = torahPortion && (
-            torahPortion.includes("ראש השנה") || 
-            torahPortion.includes("יום כיפור") || 
-            torahPortion.includes("סוכות") || 
-            torahPortion.includes("פסח") || 
-            torahPortion.includes("שבועות") ||
-            torahPortion.includes("חג")
-          );
+    const titleElement = document.querySelector('.title');
+    if (titleElement) {
+      titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
+    }
 
-          const titleElement = document.querySelector('.title');
-          if (titleElement) {
-            titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
-          }
-          
           const tableHeaders = document.querySelectorAll('.shabbat-table th');
           if (tableHeaders.length >= 3) {
             if (isHoliday) {
@@ -347,31 +347,31 @@
             }
           }
 
-          const footerElement = document.querySelector('.footer-text');
-          if (footerElement) {
+    const footerElement = document.querySelector('.footer-text');
+    if (footerElement) {
             let footerText = "שבת שלום ומבורך";
-            
-            if (torahPortion) {
-              if (torahPortion.includes("ראש השנה")) {
-                footerText = "כתיבה וחתימה טובה";
-              } else if (torahPortion.includes("יום כיפור")) {
-                footerText = "גמר חתימה טובה";
-              } else if (torahPortion.includes("סוכות")) {
-                footerText = "חג שמח";
-              } else if (torahPortion.includes("פסח")) {
-                footerText = "פסח כשר ושמח";
-              } else if (torahPortion.includes("שבועות")) {
-                footerText = "חג שמח";
-              }
-            }
-            
-            footerElement.textContent = footerText;
-          }
-
-          const statusContainer = document.querySelector('.status-container');
-          
-          if (statusContainer) {
-            const isRoshHashana = (torahPortion && torahPortion.includes("ראש השנה")) || 
+      
+      if (torahPortion) {
+        if (torahPortion.includes("ראש השנה")) {
+          footerText = "כתיבה וחתימה טובה";
+        } else if (torahPortion.includes("יום כיפור")) {
+          footerText = "גמר חתימה טובה";
+        } else if (torahPortion.includes("סוכות")) {
+          footerText = "חג שמח";
+        } else if (torahPortion.includes("פסח")) {
+          footerText = "פסח כשר ושמח";
+        } else if (torahPortion.includes("שבועות")) {
+          footerText = "חג שמח";
+        }
+      }
+      
+      footerElement.textContent = footerText;
+    }
+    
+    const statusContainer = document.querySelector('.status-container');
+    
+    if (statusContainer) {
+      const isRoshHashana = (torahPortion && torahPortion.includes("ראש השנה")) || 
                                  window.location.search.includes("rosh_hashana");
             
             const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
@@ -379,12 +379,12 @@
             
             const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
                            window.location.search.includes("sukot");
-            
-            if (isRoshHashana) {
-              statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
-              statusContainer.style.backgroundSize = "cover";
-              statusContainer.style.backgroundPosition = "center";
-              statusContainer.style.backgroundRepeat = "no-repeat";
+      
+      if (isRoshHashana) {
+        statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
+        statusContainer.style.backgroundSize = "cover";
+        statusContainer.style.backgroundPosition = "center";
+        statusContainer.style.backgroundRepeat = "no-repeat";
             } else if (isYomKippur) {
               statusContainer.style.backgroundImage = "url('yom-kippur.jpeg')";
               statusContainer.style.backgroundSize = "cover";
@@ -392,45 +392,45 @@
               statusContainer.style.backgroundRepeat = "no-repeat";
             } else if (isSukot) {
               statusContainer.style.backgroundImage = "url('sukot.jpeg')";
-              statusContainer.style.backgroundSize = "cover";
-              statusContainer.style.backgroundPosition = "center";
-              statusContainer.style.backgroundRepeat = "no-repeat";
-              
-              const shabbatTable = document.querySelector('.shabbat-table');
-              if (shabbatTable) {
-                shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-                shabbatTable.style.borderRadius = '10px';
-                shabbatTable.style.overflow = 'hidden';
-                shabbatTable.style.marginBottom = '20px';
-              }
-              
-              const title = document.querySelector('.title');
-              if (title) {
-                title.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-                title.style.borderRadius = '10px';
-                title.style.padding = '10px';
-              }
-              
-              const footer = document.querySelector('.footer-text');
-              if (footer) {
-                footer.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
-                footer.style.borderRadius = '10px';
-                footer.style.padding = '10px';
-                footer.style.marginTop = '10px';
-              }
-              
-              let personImg = document.getElementById('person-overlay');
-              if (!personImg) {
-                personImg = document.createElement('img');
-                personImg.id = 'person-overlay';
-                personImg.src = 'ori_clean.png';
+        statusContainer.style.backgroundSize = "cover";
+        statusContainer.style.backgroundPosition = "center";
+        statusContainer.style.backgroundRepeat = "no-repeat";
+        
+        const shabbatTable = document.querySelector('.shabbat-table');
+        if (shabbatTable) {
+          shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+          shabbatTable.style.borderRadius = '10px';
+          shabbatTable.style.overflow = 'hidden';
+          shabbatTable.style.marginBottom = '20px';
+        }
+        
+        const title = document.querySelector('.title');
+        if (title) {
+          title.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+          title.style.borderRadius = '10px';
+          title.style.padding = '10px';
+        }
+        
+        const footer = document.querySelector('.footer-text');
+        if (footer) {
+          footer.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+          footer.style.borderRadius = '10px';
+          footer.style.padding = '10px';
+          footer.style.marginTop = '10px';
+        }
+        
+        let personImg = document.getElementById('person-overlay');
+        if (!personImg) {
+          personImg = document.createElement('img');
+          personImg.id = 'person-overlay';
+          personImg.src = 'ori_clean.png';
                 
                 const isMobile = window.innerWidth <= 768;
                 const isSmallMobile = window.innerWidth <= 480;
                 
                 if (isSmallMobile) {
-                  personImg.style.cssText = `
-                    position: absolute;
+          personImg.style.cssText = `
+            position: absolute;
                     top: 50px;
                     left: 8%;
                     transform: translateX(-20%);
@@ -452,70 +452,70 @@
                   personImg.style.cssText = `
                     position: absolute;
                     top: 40px;
-                    left: 31%;
-                    transform: translateX(-20%);
-                    width: 195px;
-                    height: auto;
-                    z-index: 10;
-                  `;
+            left: 31%;
+            transform: translateX(-20%);
+            width: 195px;
+            height: auto;
+            z-index: 10;
+          `;
                 }
                 
-                statusContainer.appendChild(personImg);
-              }
-              personImg.style.display = 'block';
-            } else {
-              statusContainer.style.backgroundImage = "url('shabat.webp')";
-              statusContainer.style.backgroundSize = "cover";
-              statusContainer.style.backgroundPosition = "center";
-              statusContainer.style.backgroundRepeat = "no-repeat";
-              
-              const shabbatTable = document.querySelector('.shabbat-table');
-              if (shabbatTable) {
-                shabbatTable.style.backgroundColor = '';
-                shabbatTable.style.borderRadius = '';
-                shabbatTable.style.overflow = '';
-                shabbatTable.style.marginBottom = '';
-              }
-              
-              const title = document.querySelector('.title');
-              if (title) {
-                title.style.backgroundColor = '';
-                title.style.borderRadius = '';
-                title.style.padding = '';
-              }
-              
-              const footer = document.querySelector('.footer-text');
-              if (footer) {
-                footer.style.backgroundColor = '';
-                footer.style.borderRadius = '';
-                footer.style.padding = '';
-                footer.style.marginTop = '';
-              }
-              
-              const personImg = document.getElementById('person-overlay');
-              if (personImg) {
-                personImg.style.display = 'none';
-              }
-            }
-          }
+          statusContainer.appendChild(personImg);
+        }
+        personImg.style.display = 'block';
+      } else {
+        statusContainer.style.backgroundImage = "url('shabat.webp')";
+        statusContainer.style.backgroundSize = "cover";
+        statusContainer.style.backgroundPosition = "center";
+        statusContainer.style.backgroundRepeat = "no-repeat";
+        
+        const shabbatTable = document.querySelector('.shabbat-table');
+        if (shabbatTable) {
+          shabbatTable.style.backgroundColor = '';
+          shabbatTable.style.borderRadius = '';
+          shabbatTable.style.overflow = '';
+          shabbatTable.style.marginBottom = '';
+        }
+        
+        const title = document.querySelector('.title');
+        if (title) {
+          title.style.backgroundColor = '';
+          title.style.borderRadius = '';
+          title.style.padding = '';
+        }
+        
+        const footer = document.querySelector('.footer-text');
+        if (footer) {
+          footer.style.backgroundColor = '';
+          footer.style.borderRadius = '';
+          footer.style.padding = '';
+          footer.style.marginTop = '';
+        }
+        
+        const personImg = document.getElementById('person-overlay');
+        if (personImg) {
+          personImg.style.display = 'none';
+        }
+      }
+    }
 
-          cities.forEach((city) => {
-            const cityData = closestEvents.find(event => event.city === city.name);
-            
-            if (cityData) {
-              document.getElementById(`${city.id}-shabbat-enter`).textContent =
-                cityData.candleLighting && cityData.candleLighting !== "לא זמין" ? cityData.candleLighting : "לא זמין";
-              document.getElementById(`${city.id}-shabbat-exit`).textContent =
-                cityData.shabbatExit && cityData.shabbatExit !== "לא זמין" ? cityData.shabbatExit : "לא זמין";
-              document.getElementById(`${city.id}-rabenu-tam`).textContent =
-                cityData.rabenuTam && cityData.rabenuTam !== "לא זמין" ? cityData.rabenuTam : "לא זמין";
-            } else {
-              document.getElementById(`${city.id}-shabbat-enter`).textContent = "לא זמין";
-              document.getElementById(`${city.id}-shabbat-exit`).textContent = "לא זמין";
-              document.getElementById(`${city.id}-rabenu-tam`).textContent = "לא זמין";
-            }
-          });
-        } catch (error) {
+    cities.forEach((city) => {
+      const cityData = closestEvents.find(event => event.city === city.name);
+      
+      if (cityData) {
+        document.getElementById(`${city.id}-shabbat-enter`).textContent =
+          cityData.candleLighting && cityData.candleLighting !== "לא זמין" ? cityData.candleLighting : "לא זמין";
+        document.getElementById(`${city.id}-shabbat-exit`).textContent =
+          cityData.shabbatExit && cityData.shabbatExit !== "לא זמין" ? cityData.shabbatExit : "לא זמין";
+        document.getElementById(`${city.id}-rabenu-tam`).textContent =
+          cityData.rabenuTam && cityData.rabenuTam !== "לא זמין" ? cityData.rabenuTam : "לא זמין";
+      } else {
+        document.getElementById(`${city.id}-shabbat-enter`).textContent = "לא זמין";
+        document.getElementById(`${city.id}-shabbat-exit`).textContent = "לא זמין";
+        document.getElementById(`${city.id}-rabenu-tam`).textContent = "לא זמין";
+      }
+    });
+  } catch (error) {
           console.error('Error loading shabbat times:', error);
         }
       }
@@ -533,55 +533,55 @@
           try {
             const canvas = await html2canvas(statusElement, {
               scale: 2,
-              width: statusElement.offsetWidth,
-              height: statusElement.offsetHeight,
+            width: statusElement.offsetWidth,
+            height: statusElement.offsetHeight,
               backgroundColor: null,
-              onclone: (clonedDocument) => {
-                const container = clonedDocument.querySelector(".status-container");
+            onclone: (clonedDocument) => {
+              const container = clonedDocument.querySelector(".status-container");
                 container.style.backgroundSize = "cover";
-                container.style.backgroundPosition = "center";
-                container.style.backgroundRepeat = "no-repeat";
-                
-                const personImg = clonedDocument.getElementById('person-overlay');
-                if (personImg) {
-                  personImg.style.display = 'block';
+              container.style.backgroundPosition = "center";
+              container.style.backgroundRepeat = "no-repeat";
+              
+              const personImg = clonedDocument.getElementById('person-overlay');
+              if (personImg) {
+                personImg.style.display = 'block';
                   
                   const isMobile = window.innerWidth <= 768;
                   const isSmallMobile = window.innerWidth <= 480;
                   
                   if (isSmallMobile) {
-                    personImg.style.top = '160px';
-                    personImg.style.left = '8%';
+                    personImg.style.top = '190px';
+                    personImg.style.left = '12%';
                     personImg.style.width = '200px';
                   } else if (isMobile) {
-                    personImg.style.top = '180px';
-                    personImg.style.left = '10%';
+                    personImg.style.top = '210px';
+                    personImg.style.left = '15%';
                     personImg.style.width = '220px';
                   } else {
-                    personImg.style.top = '150px';
-                    personImg.style.left = '31%';
+                    personImg.style.top = '180px';
+                    personImg.style.left = '35%';
                     personImg.style.width = '195px';
                   }
                 }
                 
-                const headerInfo = clonedDocument.querySelector('.header-info');
-                if (headerInfo) {
-                  headerInfo.style.position = 'relative';
-                  headerInfo.style.transform = 'none';
-                  headerInfo.style.top = '0px';
-                  headerInfo.style.left = '0px';
-                  headerInfo.style.marginTop = '0px';
-                  headerInfo.style.marginBottom = '15px';
-                  headerInfo.style.zIndex = '5';
-                }
-                
-                const arcText = clonedDocument.querySelector('.arc-text');
-                if (arcText) {
+              const headerInfo = clonedDocument.querySelector('.header-info');
+              if (headerInfo) {
+                headerInfo.style.position = 'relative';
+                headerInfo.style.transform = 'none';
+                headerInfo.style.top = '0px';
+                headerInfo.style.left = '0px';
+                headerInfo.style.marginTop = '0px';
+                headerInfo.style.marginBottom = '15px';
+                headerInfo.style.zIndex = '5';
+              }
+              
+              const arcText = clonedDocument.querySelector('.arc-text');
+              if (arcText) {
                   arcText.style.position = 'absolute';
                   arcText.style.top = '150px';
                   arcText.style.left = '50%';
                   arcText.style.transform = 'translateX(-50%)';
-                  arcText.style.zIndex = '15';
+                arcText.style.zIndex = '15';
                   arcText.style.pointerEvents = 'none';
                   
                   const svg = arcText.querySelector('svg');
@@ -661,15 +661,15 @@
               link.download = "shabbat-status.png";
               link.style.display = "none";
               document.body.appendChild(link);
-              link.click();
+                link.click();
               document.body.removeChild(link);
             }, 'image/png');
-            
+                
           } catch (error) {
             console.error('Error creating canvas:', error);
             alert('שגיאה ביצירת התמונה: ' + error.message);
           }
-        }, 1000);
+              }, 1000);
       }
 
       function loadPreviousEvent() {
@@ -757,16 +757,16 @@
               const isSmallMobile = window.innerWidth <= 480;
               
               if (isSmallMobile) {
-                personImg.style.cssText = `
-                  position: absolute;
+              personImg.style.cssText = `
+                position: absolute;
                   top: 220px;
                   left: 8%;
-                  transform: translateX(-20%);
+                transform: translateX(-20%);
                   width: 200px;
                   height: auto;
-                  z-index: 10;
-                  pointer-events: none;
-                `;
+                z-index: 10;
+                pointer-events: none;
+              `;
               } else if (isMobile) {
                 personImg.style.cssText = `
                   position: absolute;
@@ -833,16 +833,16 @@
               const isSmallMobile = window.innerWidth <= 480;
               
               if (isSmallMobile) {
-                personImg.style.cssText = `
-                  position: absolute;
+              personImg.style.cssText = `
+                position: absolute;
                   top: 220px;
                   left: 8%;
-                  transform: translateX(-20%);
+                transform: translateX(-20%);
                   width: 200px;
                   height: auto;
-                  z-index: 10;
-                  pointer-events: none;
-                `;
+                z-index: 10;
+                pointer-events: none;
+              `;
               } else if (isMobile) {
                 personImg.style.cssText = `
                   position: absolute;
