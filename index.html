@@ -519,6 +519,12 @@
       }
 
       async function downloadImage() {
+        // בדיקה אם html2canvas נטען
+        if (typeof html2canvas === 'undefined') {
+          alert('שגיאה: ספריית html2canvas לא נטענה. אנא רענן את הדף ונסה שוב.');
+          return;
+        }
+        
         const statusElement = document.getElementById("status");
         
         setTimeout(async () => {
