@@ -414,10 +414,19 @@
         statusContainer.style.backgroundRepeat = "no-repeat";
             } else if (isCholHamoed) {
               // חול המועד - נקבע לפי איזה חג
-              if (torahPortion.includes("סוכות")) {
+              // אם זה חול המועד ולא מצוין איזה חג, נבדוק לפי התאריך
+              const currentDate = new Date();
+              const month = currentDate.getMonth() + 1; // 1-12
+              const day = currentDate.getDate();
+              
+              // סוכות בדרך כלל באוקטובר (חודש 10)
+              if (month === 10 || (month === 9 && day >= 15)) {
                 statusContainer.style.backgroundImage = "url('sukot.jpeg')";
-              } else if (torahPortion.includes("פסח")) {
+              } else if (month === 4) { // פסח בדרך כלל באפריל
                 statusContainer.style.backgroundImage = "url('sukot.jpeg')"; // נשתמש באותה תמונה עד שתמצא תמונת פסח
+              } else {
+                // ברירת מחדל לסוכות אם לא בטוחים
+                statusContainer.style.backgroundImage = "url('sukot.jpeg')";
               }
               statusContainer.style.backgroundSize = "cover";
               statusContainer.style.backgroundPosition = "center";
@@ -763,10 +772,19 @@
             statusContainer.style.backgroundRepeat = "no-repeat";
           } else if (isCholHamoed) {
             // חול המועד - נקבע לפי איזה חג
-            if (torahPortion.includes("סוכות")) {
+            // אם זה חול המועד ולא מצוין איזה חג, נבדוק לפי התאריך
+            const currentDate = new Date();
+            const month = currentDate.getMonth() + 1; // 1-12
+            const day = currentDate.getDate();
+            
+            // סוכות בדרך כלל באוקטובר (חודש 10)
+            if (month === 10 || (month === 9 && day >= 15)) {
               statusContainer.style.backgroundImage = "url('sukot.jpeg')";
-            } else if (torahPortion.includes("פסח")) {
+            } else if (month === 4) { // פסח בדרך כלל באפריל
               statusContainer.style.backgroundImage = "url('sukot.jpeg')"; // נשתמש באותה תמונה עד שתמצא תמונת פסח
+            } else {
+              // ברירת מחדל לסוכות אם לא בטוחים
+              statusContainer.style.backgroundImage = "url('sukot.jpeg')";
             }
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
