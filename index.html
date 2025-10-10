@@ -379,9 +379,16 @@
             
             const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
                            window.location.search.includes("sukot");
-      
-      if (isRoshHashana) {
-        statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
+            
+            // בדיקה לחול המועד
+            const isCholHamoed = (torahPortion && (
+              torahPortion.includes("חול המועד") ||
+              torahPortion.includes("חול המועד סוכות") ||
+              torahPortion.includes("חול המועד פסח")
+            ));
+            
+            if (isRoshHashana) {
+              statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
         statusContainer.style.backgroundSize = "cover";
         statusContainer.style.backgroundPosition = "center";
         statusContainer.style.backgroundRepeat = "no-repeat";
@@ -395,6 +402,16 @@
         statusContainer.style.backgroundSize = "cover";
         statusContainer.style.backgroundPosition = "center";
         statusContainer.style.backgroundRepeat = "no-repeat";
+            } else if (isCholHamoed) {
+              // חול המועד - נקבע לפי איזה חג
+              if (torahPortion.includes("סוכות")) {
+                statusContainer.style.backgroundImage = "url('sukot.jpeg')";
+              } else if (torahPortion.includes("פסח")) {
+                statusContainer.style.backgroundImage = "url('sukot.jpeg')"; // נשתמש באותה תמונה עד שתמצא תמונת פסח
+              }
+              statusContainer.style.backgroundSize = "cover";
+              statusContainer.style.backgroundPosition = "center";
+              statusContainer.style.backgroundRepeat = "no-repeat";
         
         const shabbatTable = document.querySelector('.shabbat-table');
         if (shabbatTable) {
@@ -708,6 +725,13 @@
           const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
                          window.location.search.includes("sukot");
           
+          // בדיקה לחול המועד
+          const isCholHamoed = (torahPortion && (
+            torahPortion.includes("חול המועד") ||
+            torahPortion.includes("חול המועד סוכות") ||
+            torahPortion.includes("חול המועד פסח")
+          ));
+          
           if (isRoshHashana) {
             statusContainer.style.backgroundImage = "url('rosh-hashna1.jpeg')";
             statusContainer.style.backgroundSize = "cover";
@@ -720,6 +744,16 @@
             statusContainer.style.backgroundRepeat = "no-repeat";
           } else if (isSukot) {
             statusContainer.style.backgroundImage = "url('sukot.jpeg')";
+            statusContainer.style.backgroundSize = "cover";
+            statusContainer.style.backgroundPosition = "center";
+            statusContainer.style.backgroundRepeat = "no-repeat";
+          } else if (isCholHamoed) {
+            // חול המועד - נקבע לפי איזה חג
+            if (torahPortion.includes("סוכות")) {
+              statusContainer.style.backgroundImage = "url('sukot.jpeg')";
+            } else if (torahPortion.includes("פסח")) {
+              statusContainer.style.backgroundImage = "url('sukot.jpeg')"; // נשתמש באותה תמונה עד שתמצא תמונת פסח
+            }
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
