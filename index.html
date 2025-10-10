@@ -159,7 +159,7 @@
         <span id="hebrew-date">תאריך עברי...</span>
         <span id="torah-portion">פרשת שבוע...</span>
       </div>
-      <div class="title">זמני כניסת ויציאת השבת</div>
+      <div class="title"></div>
       <div class="subtitle">לעילוי נשמת אורי דנינו בן עינב ה' יקום דמו</div>
 
       <div class="arc-text">
@@ -333,7 +333,7 @@
 
     const titleElement = document.querySelector('.title');
     if (titleElement) {
-      titleElement.textContent = isHoliday ? "זמני כניסת ויציאת החג" : "זמני כניסת ויציאת השבת";
+      titleElement.textContent = "";
     }
 
           const tableHeaders = document.querySelectorAll('.shabbat-table th');
@@ -676,7 +676,7 @@
                   const shareData = {
                     files: [file],
                     title: 'זמני שבת',
-                    text: 'זמני כניסת ויציאת השבת'
+                    text: ''
                   };
                   
                   // בדיקה אם אפשר לשתף קבצים
