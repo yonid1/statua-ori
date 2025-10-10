@@ -377,8 +377,12 @@
             const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
                                window.location.search.includes("yom_kippur");
             
-            const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
-                           window.location.search.includes("sukot");
+            const isSukot = (torahPortion && (
+              torahPortion.includes("סוכות") ||
+              torahPortion.includes("סוכה") ||
+              torahPortion.includes("חג הסוכות") ||
+              torahPortion.includes("חול המועד סוכות")
+            )) || window.location.search.includes("sukot");
             
             // בדיקה לחול המועד
             const isCholHamoed = (torahPortion && (
@@ -728,8 +732,12 @@
           const isYomKippur = (torahPortion && torahPortion.includes("יום כיפור")) ||
                              window.location.search.includes("yom_kippur");
           
-          const isSukot = (torahPortion && torahPortion.includes("סוכות")) ||
-                         window.location.search.includes("sukot");
+          const isSukot = (torahPortion && (
+            torahPortion.includes("סוכות") ||
+            torahPortion.includes("סוכה") ||
+            torahPortion.includes("חג הסוכות") ||
+            torahPortion.includes("חול המועד סוכות")
+          )) || window.location.search.includes("sukot");
           
           // בדיקה לחול המועד
           const isCholHamoed = (torahPortion && (
