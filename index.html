@@ -395,7 +395,6 @@
             console.log('Torah portion text:', torahPortion);
             console.log('isCholHamoed:', isCholHamoed);
             console.log('isSukot:', isSukot);
-            alert('Torah portion: ' + torahPortion + '\nisCholHamoed: ' + isCholHamoed + '\nisSukot: ' + isSukot);
             
             if (isRoshHashana) {
               statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
@@ -559,7 +558,7 @@
       async function downloadImage() {
         // בדיקה אם html2canvas נטען
         if (typeof html2canvas === 'undefined') {
-          alert('שגיאה: ספריית html2canvas לא נטענה. אנא רענן את הדף ונסה שוב.');
+          console.error('שגיאה: ספריית html2canvas לא נטענה. אנא רענן את הדף ונסה שוב.');
           return;
         }
         
@@ -665,7 +664,7 @@
             // המרת canvas ל-blob
             canvas.toBlob(async (blob) => {
               if (!blob) {
-                alert('שגיאה ביצירת התמונה');
+                console.error('שגיאה ביצירת התמונה');
                 return;
               }
               
@@ -703,7 +702,7 @@
                 
           } catch (error) {
             console.error('Error creating canvas:', error);
-            alert('שגיאה ביצירת התמונה: ' + error.message);
+            console.error('שגיאה ביצירת התמונה: ' + error.message);
           }
               }, 1000);
       }
