@@ -387,6 +387,12 @@
               torahPortion.includes("חול המועד פסח")
             ));
             
+            // Debug info
+            console.log('Torah portion text:', torahPortion);
+            console.log('isCholHamoed:', isCholHamoed);
+            console.log('isSukot:', isSukot);
+            alert('Torah portion: ' + torahPortion + '\nisCholHamoed: ' + isCholHamoed + '\nisSukot: ' + isSukot);
+            
             if (isRoshHashana) {
               statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
         statusContainer.style.backgroundSize = "cover";
