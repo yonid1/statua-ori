@@ -39,7 +39,7 @@
       .arc-text svg {
         width: 300px;
         height: 120px;
-        margin-top: -10px; /* ריווח תקין */
+        margin-top: -65px; /* ריווח תקין */
       }
       .profile-picture {
         width: 160px;
@@ -66,14 +66,14 @@
         justify-content: space-between;
         width: 340px;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 900;
         margin-bottom: 15px;
       }
       .shabbat-table {
         width: 100%;
         border-collapse: collapse;
-        margin-top: 260px; /* העלאת הטבלה */
-        margin-bottom: 0;
+        margin-top: 270px; /* העלאת הטבלה */
+        margin-bottom: 10;
       }
       .shabbat-table th,
       .shabbat-table td {
@@ -111,10 +111,14 @@
         display: inline-block; /* כדי שיהיה טקסט מוגדר */
         text-align: center;
         letter-spacing: 4px;
+        margin-top: 20px; /* העלאת הפוטר */
       }
     </style>
   </head>
   <body>
+    <!-- כפתור לבדיקה ידנית של תמונת ראש השנה -->
+    <button onclick="testRoshHashana()" style="position: fixed; top: 10px; right: 10px; z-index: 1000; background: #007bff; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer;">בדיקת ראש השנה</button>
+    
     <div class="status-container" id="status">
       <div class="header-info">
         <span id="hebrew-date">תאריך עברי...</span>
@@ -144,7 +148,7 @@
           </text>
         </svg>
       </div>
-
+      
       <script>
         // פונקציה לבדוק אם מדובר במכשיר iOS
         function isIOS() {
@@ -166,13 +170,13 @@
         };
       </script>
 
-      <img
+      <!-- <img
         id="profile-picture"
-        src="rosh-hashna.jpeg"
+        src="https://via.placeholder.com/180x260"
         alt="Profile"
         class="profile-picture"
         onclick="document.getElementById('upload').click();"
-      />
+      /> -->
 
       
 
@@ -298,7 +302,7 @@
     if (hebrewDateElement) {
       hebrewDateElement.textContent = hebrewDate || "תאריך עברי לא זמין";
       console.log("Hebrew Date Updated:", hebrewDate);
-            } else {
+    } else {
       console.error("Element with ID 'hebrew-date' not found.");
     }
 
@@ -358,43 +362,112 @@
     // עדכון תמונת רקע לפי החג
     console.log("=== BACKGROUND UPDATE START ===");
     console.log("torahPortion:", torahPortion);
+    console.log("torahPortion type:", typeof torahPortion);
+    console.log("torahPortion includes ראש השנה:", torahPortion && torahPortion.includes("ראש השנה"));
     
     const statusContainer = document.querySelector('.status-container');
     console.log("statusContainer found:", !!statusContainer);
     
+    // שמירת התמונה המקורית מהקובץ
+    const originalBackgroundImage = "url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAYAA20DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC/igCnYpQK+eseyJilA96dijFMBMD1pMU7FGKAuMxRTyBSYoATFGKWikMbSU/FGPagdyMijFPxzRiiwXGgU7FHFLTE2JikxTqMUDuNxSYp+KXFIVxmMU [... omitted end of long line])";
+    
     if (statusContainer) {
-      if (torahPortion && torahPortion.includes("ראש השנה")) {
+      // בדיקה ידנית - אם יש "ראש השנה" בפרשה או אם זה ראש השנה
+      const isRoshHashana = (torahPortion && torahPortion.includes("ראש השנה")) || 
+                           (torahPortion && torahPortion.includes("ראש השנה")) ||
+                           window.location.search.includes("rosh_hashana"); // אפשרות לבדיקה ידנית
+      
+      if (isRoshHashana) {
         console.log("Setting Rosh Hashanah background");
-        // לראש השנה - הרקע המקורי מעל תמונת ראש השנה
-        const newBackgroundImage = "url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAYAA20DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC/igCnYpQK+eseyJilA96dijFMBMD1pMU7FGKAuMxRTyBSYoATFGKWikMbSU/FGPagdyMijFPxzRiiwXGgU7FHFLTE2JikxTqMUDuNxSYp+KXFIVxmMU [... omitted end of long line])', url('rosh-hashna.jpeg')";
-        console.log("About to set backgroundImage to:", newBackgroundImage.substring(0, 100) + "...");
-        console.log("statusContainer element:", statusContainer);
-        console.log("statusContainer.style:", statusContainer.style);
-        console.log("Before setting - statusContainer.style.backgroundImage:", statusContainer.style.backgroundImage);
-        console.log("About to execute: statusContainer.style.backgroundImage = newBackgroundImage");
-        try {
-          statusContainer.style.backgroundImage = newBackgroundImage;
-          console.log("SUCCESS: backgroundImage set successfully");
-        } catch (error) {
-          console.log("ERROR setting backgroundImage:", error);
+        console.log("Reason: torahPortion includes ראש השנה or manual test");
+        // לראש השנה - תמונת ראש השנה כרקע ותמונת האיש ללא רקע מעל
+        statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
+        statusContainer.style.backgroundSize = "cover";
+        statusContainer.style.backgroundPosition = "center";
+        statusContainer.style.backgroundRepeat = "no-repeat";
+        
+        // הוספת רקע אטום לטבלה ולכותרות
+        const shabbatTable = document.querySelector('.shabbat-table');
+        if (shabbatTable) {
+          shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+          shabbatTable.style.borderRadius = '10px';
+          shabbatTable.style.overflow = 'hidden';
+          shabbatTable.style.marginBottom = '20px';
         }
-        console.log("After setting backgroundImage");
-        console.log("statusContainer.style.backgroundImage after setting:", statusContainer.style.backgroundImage);
-        console.log("Direct check - statusContainer.style.getPropertyValue('background-image'):", statusContainer.style.getPropertyValue('background-image'));
-        statusContainer.style.backgroundSize = "130%, cover";
-        statusContainer.style.backgroundPosition = "center, center";
-        statusContainer.style.backgroundRepeat = "no-repeat, no-repeat";
+        
+        // רקע אטום לכותרת
+        const title = document.querySelector('.title');
+        if (title) {
+          title.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+          title.style.borderRadius = '10px';
+          title.style.padding = '10px';
+        }
+        
+        // רקע אטום לפוטר
+        const footer = document.querySelector('.footer-text');
+        if (footer) {
+          footer.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+          footer.style.borderRadius = '10px';
+          footer.style.padding = '10px';
+          footer.style.marginTop = '10px';
+        }
+        
+        // הוספת תמונת האיש ללא רקע
+        let personImg = document.getElementById('person-overlay');
+        if (!personImg) {
+          personImg = document.createElement('img');
+          personImg.id = 'person-overlay';
+          personImg.src = 'ori_clean.png';
+          personImg.style.cssText = `
+            position: absolute;
+            top: 210px;
+            left: 31%;
+            transform: translateX(-20%);
+            width: 195px;
+            height: auto;
+            z-index: 10;
+          `;
+          statusContainer.appendChild(personImg);
+        }
+        personImg.style.display = 'block';
         console.log("Rosh Hashanah background set");
-        console.log("Final backgroundImage:", statusContainer.style.backgroundImage);
-        console.log("Final backgroundSize:", statusContainer.style.backgroundSize);
-        console.log("Final backgroundPosition:", statusContainer.style.backgroundPosition);
-            } else {
+      } else {
         console.log("Setting default background");
-        // לשבת רגילה וחגים אחרים - רק הרקע המקורי
-        statusContainer.style.backgroundImage = "url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAYAA20DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC/igCnYpQK+eseyJilA96dijFMBMD1pMU7FGKAuMxRTyBSYoATFGKWikMbSU/FGPagdyMijFPxzRiiwXGgU7FHFLTE2JikxTqMUDuNxSYp+KXFIVxmMU [... omitted end of long line])";
+        // לשבת רגילה וחגים אחרים - החזרת הרקע המקורי והסתרת תמונת ראש השנה
+        statusContainer.style.backgroundImage = originalBackgroundImage;
         statusContainer.style.backgroundSize = "130%";
         statusContainer.style.backgroundPosition = "center";
         statusContainer.style.backgroundRepeat = "no-repeat";
+        
+        // החזרת הרקע הרגיל לטבלה ולכותרות
+        const shabbatTable = document.querySelector('.shabbat-table');
+        if (shabbatTable) {
+          shabbatTable.style.backgroundColor = '';
+          shabbatTable.style.borderRadius = '';
+          shabbatTable.style.overflow = '';
+          shabbatTable.style.marginBottom = '';
+        }
+        
+        const title = document.querySelector('.title');
+        if (title) {
+          title.style.backgroundColor = '';
+          title.style.borderRadius = '';
+          title.style.padding = '';
+        }
+        
+        const footer = document.querySelector('.footer-text');
+        if (footer) {
+          footer.style.backgroundColor = '';
+          footer.style.borderRadius = '';
+          footer.style.padding = '';
+          footer.style.marginTop = '';
+        }
+        
+        // הסתרת תמונת האיש אם היא קיימת
+        const personImg = document.getElementById('person-overlay');
+        if (personImg) {
+          personImg.style.display = 'none';
+        }
         console.log("Default background set");
       }
     }
@@ -407,11 +480,11 @@
       if (cityData) {
         console.log(`Updating times for ${city.name}:`, cityData);
 
-              document.getElementById(`${city.id}-shabbat-enter`).textContent =
+        document.getElementById(`${city.id}-shabbat-enter`).textContent =
           cityData.candleLighting && cityData.candleLighting !== "לא זמין" ? cityData.candleLighting : "לא זמין";
-              document.getElementById(`${city.id}-shabbat-exit`).textContent =
+        document.getElementById(`${city.id}-shabbat-exit`).textContent =
           cityData.shabbatExit && cityData.shabbatExit !== "לא זמין" ? cityData.shabbatExit : "לא זמין";
-              document.getElementById(`${city.id}-rabenu-tam`).textContent =
+        document.getElementById(`${city.id}-rabenu-tam`).textContent =
           cityData.rabenuTam && cityData.rabenuTam !== "לא זמין" ? cityData.rabenuTam : "לא זמין";
       } else {
         console.warn(`No data found for ${city.name} on ${closestDate}`);
@@ -420,31 +493,71 @@
         document.getElementById(`${city.id}-rabenu-tam`).textContent = "לא זמין";
       }
     });
-        } catch (error) {
-          console.error("Error loading Shabbat times:", error);
-        }
-      }
+  } catch (error) {
+    console.error("Error loading Shabbat times:", error);
+  }
+}
 
       
       function downloadImage() {
         const statusElement = document.getElementById("status");
-        html2canvas(statusElement, {
-          scale: 2, // שיפור האיכות
-          width: statusElement.offsetWidth,
-          height: statusElement.offsetHeight,
-          backgroundColor: null, // שימוש בצבע רקע שקוף אם אין צבע רקע
-          onclone: (clonedDocument) => {
-            const container = clonedDocument.querySelector(".status-container");
-            container.style.backgroundSize = "contain"; // שומר על יחס גובה-רוחב
-            container.style.backgroundPosition = "center";
-            container.style.backgroundRepeat = "no-repeat";
-          },
-        }).then((canvas) => {
-          const link = document.createElement("a");
-          link.href = canvas.toDataURL("image/png");
-          link.download = "shabbat-status.png";
-          link.click();
-        });
+        
+        // המתן קצת כדי שהתמונות יטענו
+        setTimeout(() => {
+          html2canvas(statusElement, {
+            scale: 2, // סקלה מאוזנת
+            backgroundColor: '#ffffff', // רקע לבן
+            useCORS: true,
+            allowTaint: true,
+            logging: false,
+            imageTimeout: 15000, // המתן עד 15 שניות לתמונות
+            letterRendering: true, // שיפור רינדור הטקסט
+            foreignObjectRendering: false, // ביטול SVG rendering
+            scrollX: 0,
+            scrollY: 0,
+            onclone: (clonedDocument) => {
+              console.log('Cloning document...');
+              
+              // רק וידוא שהרקע מוצג נכון
+              const container = clonedDocument.querySelector(".status-container");
+              if (container) {
+                console.log('Container found, setting background...');
+                // שמירה על הגדרות הרקע המקוריות
+                container.style.backgroundSize = "cover";
+                container.style.backgroundPosition = "center";
+                container.style.backgroundRepeat = "no-repeat";
+              }
+              
+              // וידוא שתמונת האיש מוצגת נכון
+              const personImg = clonedDocument.getElementById('person-overlay');
+              if (personImg) {
+                console.log('Person image found, setting display...');
+                personImg.style.display = 'block';
+              }
+              
+              // תיקון ספציפי לטקסט עם SVG
+              const headerInfo = clonedDocument.querySelector('.header-info');
+              if (headerInfo) {
+                console.log('Fixing SVG text position...');
+                // הורדה למטה בלי לדחוף אלמנטים אחרים
+                headerInfo.style.transform = 'translateY(50px)';
+                headerInfo.style.position = 'relative';
+                headerInfo.style.top = '0px';
+                headerInfo.style.left = '0px';
+                headerInfo.style.marginTop = '0px';
+              }
+            },
+          }).then((canvas) => {
+            console.log('Canvas created successfully');
+            const link = document.createElement("a");
+            link.href = canvas.toDataURL("image/png");
+            link.download = "shabbat-status.png";
+            link.click();
+          }).catch((error) => {
+            console.error('שגיאה ביצירת התמונה:', error);
+            alert('שגיאה ביצירת התמונה: ' + error.message);
+          });
+        }, 1000); // המתן שנייה אחת
       }
 
       // פונקציה למעבר לאירוע הקודם
@@ -470,6 +583,97 @@
       loadShabbatTimes().catch(error => {
         console.error("Failed to load Shabbat times:", error);
       });
+
+      // פונקציה לבדיקה ידנית של תמונת ראש השנה
+      function testRoshHashana() {
+        console.log("Testing Rosh Hashanah background manually");
+        const statusContainer = document.querySelector('.status-container');
+        if (statusContainer) {
+          // הגדרת תמונת ראש השנה כרקע
+          statusContainer.style.backgroundImage = "url('rosh-hashna.jpg')";
+          statusContainer.style.backgroundSize = "cover";
+          statusContainer.style.backgroundPosition = "center";
+          statusContainer.style.backgroundRepeat = "no-repeat";
+          
+          // הוספת רקע אטום לטבלה ולכותרות
+          const shabbatTable = document.querySelector('.shabbat-table');
+          if (shabbatTable) {
+            shabbatTable.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+            shabbatTable.style.borderRadius = '10px';
+            shabbatTable.style.overflow = 'hidden';
+            shabbatTable.style.marginBottom = '20px';
+          }
+          
+          // רקע אטום לכותרת
+          const title = document.querySelector('.title');
+          if (title) {
+            title.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+            title.style.borderRadius = '10px';
+            title.style.padding = '10px';
+          }
+          
+          // רקע אטום לפוטר
+          const footer = document.querySelector('.footer-text');
+          if (footer) {
+            footer.style.backgroundColor = 'rgba(255, 255, 255, 0.6)';
+            footer.style.borderRadius = '10px';
+            footer.style.padding = '10px';
+            footer.style.marginTop = '10px';
+          }
+          
+          // הוספת תמונת האיש ללא רקע
+          let personImg = document.getElementById('person-overlay');
+          if (!personImg) {
+            personImg = document.createElement('img');
+            personImg.id = 'person-overlay';
+            personImg.src = 'ori_clean.png';
+            personImg.style.cssText = `
+              position: absolute;
+              top: 20px;
+              left: 30%;
+              transform: translateX(-20%);
+              width: 150px;
+              height: auto;
+              z-index: 10;
+            `;
+            statusContainer.appendChild(personImg);
+          }
+          personImg.style.display = 'block';
+          console.log("Manual Rosh Hashanah background set");
+          alert("תמונת ראש השנה הוגדרה ידנית!");
+        }
+      }
     </script>
-  </body>
+  
+<script>
+(function(){
+  async function waitForFonts(){
+    if (document.fonts && document.fonts.ready) { try { await document.fonts.ready; } catch(e){} }
+  }
+  async function waitForImages(root){
+    const imgs = Array.from((root||document).querySelectorAll('img'));
+    await Promise.all(imgs.map(img => img.complete ? Promise.resolve() : new Promise(res => { img.onload = img.onerror = res; })));
+  }
+  async function safeDownload(handler){
+    // Freeze layout by ensuring fonts & images are ready, then call the original handler
+    await waitForFonts();
+    await waitForImages(document);
+    return handler();
+  }
+  // Try to wrap an existing click on a likely download control
+  const btn = document.getElementById('downloadBtn') || document.querySelector('[data-action="download"], button.download, a.download, button[title*="הורד"], a[title*="הורד"]');
+  if (btn && !btn.dataset.safeWrapped) {
+    // If element already has onclick, wrap it. Else, listen and run any existing behavior.
+    const prevOnClick = btn.onclick;
+    btn.onclick = async function(e){
+      e && e.preventDefault && e.preventDefault();
+      const callPrev = () => prevOnClick ? prevOnClick.call(btn, e) : null;
+      return safeDownload(callPrev);
+    };
+    btn.dataset.safeWrapped = "1";
+  }
+})();
+</script>
+
+</body>
 </html>
