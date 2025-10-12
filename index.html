@@ -384,6 +384,9 @@
               torahPortion.includes("חול המועד סוכות")
             )) || window.location.search.includes("sukot");
             
+            const isSimhatTora = (torahPortion && torahPortion.includes("שמחת תורה")) ||
+                               window.location.search.includes("simhat_tora");
+            
             // בדיקה לחול המועד
             const isCholHamoed = (torahPortion && (
               torahPortion.includes("חול המועד") ||
@@ -411,6 +414,11 @@
         statusContainer.style.backgroundSize = "cover";
         statusContainer.style.backgroundPosition = "center";
         statusContainer.style.backgroundRepeat = "no-repeat";
+            } else if (isSimhatTora) {
+              statusContainer.style.backgroundImage = "url('simhat-tora.jpeg')";
+              statusContainer.style.backgroundSize = "cover";
+              statusContainer.style.backgroundPosition = "center";
+              statusContainer.style.backgroundRepeat = "no-repeat";
             } else if (isCholHamoed) {
               // חול המועד - נקבע לפי איזה חג
               // אם זה חול המועד ולא מצוין איזה חג, נבדוק לפי התאריך
@@ -747,6 +755,9 @@
             torahPortion.includes("חול המועד סוכות")
           )) || window.location.search.includes("sukot");
           
+          const isSimhatTora = (torahPortion && torahPortion.includes("שמחת תורה")) ||
+                             window.location.search.includes("simhat_tora");
+          
           // בדיקה לחול המועד
           const isCholHamoed = (torahPortion && (
             torahPortion.includes("חול המועד") ||
@@ -766,6 +777,11 @@
             statusContainer.style.backgroundRepeat = "no-repeat";
           } else if (isSukot) {
             statusContainer.style.backgroundImage = "url('sukot.jpeg')";
+            statusContainer.style.backgroundSize = "cover";
+            statusContainer.style.backgroundPosition = "center";
+            statusContainer.style.backgroundRepeat = "no-repeat";
+          } else if (isSimhatTora) {
+            statusContainer.style.backgroundImage = "url('simhat-tora.jpeg')";
             statusContainer.style.backgroundSize = "cover";
             statusContainer.style.backgroundPosition = "center";
             statusContainer.style.backgroundRepeat = "no-repeat";
